@@ -9,12 +9,17 @@
         </div>
         <v-chart :option="option.infoIsland" />
 
-        <div class="slide">
+        <!-- <div class="slide">
             <div class="wrap">
                 <h4>系统主要构架</h4>
                 <div class="content" style="width:75%">
                     <img src="/static/img/section01/info.svg" alt="系统构架" width="100%" height="100%">
                 </div>
+            </div>
+        </div> -->
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section01/info.svg" class="full-img" alt="系统构架" width="100%" height="100%">
             </div>
         </div>
 
@@ -33,10 +38,21 @@
                 </div>
             </div>
         </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section01/infopub.jpg" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
 
-        <v-page title="" content='<img src="/static/img/section01/infopub.jpg" alt="工艺质量管理平台">' />
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section01/kpi.jpg" class="full-img" alt="部门履职能力评价">
+            </div>
+        </div>
 
-        <v-page title="部门履职能力评价系统" content='<img src="/static/img/section01/kpi.jpg" alt="部门履职能力评价">' />
+        <!-- <v-page title="" content='<img src="/static/img/section01/infopub.jpg" alt="工艺质量管理平台">' /> -->
+
+        <!-- <v-page title="部门履职能力评价系统" content='<img src="/static/img/section01/kpi.jpg" alt="部门履职能力评价">' /> -->
 
         <div class="slide light-section">
             <div class="wrap">
