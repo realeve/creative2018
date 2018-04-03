@@ -1,7 +1,7 @@
 <template>
   <div class="slide" :style="bgColor">
     <div class="wrap">
-      <div class="content" v-if="content!=''" v-html="content"></div>
+      <!-- <div class="content" v-if="content!=''" v-html="content"></div> -->
       <div ref="chart" class="chart" :style="{height:chartHeight}"></div>
     </div>
     <arc-line v-if="arc" :fill="arc"></arc-line>
@@ -53,7 +53,7 @@ export default {
       });
     },
     chartHeight() {
-      return window.innerHeight * 0.9 + "px";
+      return window.innerHeight * 0.97 + "px";
     },
     bgColor() {
       switch (this.fill) {
@@ -120,7 +120,8 @@ export default {
       }
 
       if (this.fill) {
-        this.option.backgroundColor = this.bgColor;
+        // this.option.backgroundColor = this.bgColor;
+        this.option = Object.assign(this.option, this.bgColor);
       }
 
       this.option.toolbox = {
@@ -150,6 +151,7 @@ export default {
       if (Reflect.has(this.option, "xAxis")) {
         this.option.xAxis[0].boundaryGap = true;
       }
+
       this.chart.setOption(this.option);
     }
   },
@@ -160,8 +162,8 @@ export default {
 </script>
 <style scoped>
 .chart {
-  width: 90%;
-  height: 90%;
+  width: 97%;
+  height: 97%;
 }
 
 .content {

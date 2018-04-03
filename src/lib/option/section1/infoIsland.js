@@ -334,11 +334,51 @@ links = links.map(item => {
 });
 
 export default {
+  backgroundColor: "#313640",
+  // 默认色板
+  color: [
+    "#61A5E8",
+    "#7ECF51",
+    "#EECB5F",
+    "#E4925D",
+    "#E16757",
+    "#9570E5",
+    "#605FF0",
+    "#85ca36",
+    "#1c9925",
+    "#0d8b5f",
+    "#0f9cd3",
+    "#2f7e9b",
+    "#2f677d",
+    "#9b7fed",
+    "#7453d6",
+    "#3b1d98",
+    "#27abb1",
+    "#017377",
+    "#015f63",
+    "#b86868",
+    "#5669b7",
+    "#e5aab4",
+    "#60b65f",
+    "#98d2b2",
+    "#c9c8bc",
+    "#45c3dc",
+    "#e17979",
+    "#5baa5a",
+    "#eaccc2",
+    "#ffaa74"
+  ],
   title: {
     text: "成都印钞有限公司\n生产、质量、数字信息力导向布局图",
     subtext: "截止至2018年3月",
     x: "right",
-    y2: "0px"
+    y2: "0px",
+    textStyle: {
+      color: "#eee"
+    },
+    subtextStyle: {
+      color: "#eee"
+    }
   },
   tooltip: {
     trigger: "item",
@@ -350,6 +390,9 @@ export default {
     selected: {
       主数据: false,
       元信息: false
+    },
+    textStyle: {
+      color: "#eee"
     }
   },
   series: [

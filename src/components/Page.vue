@@ -1,7 +1,8 @@
 <template>
   <div>
     <main-page/>
-    <preface/>
+    <Content/>
+    <Introduction/>
     <section1/>
     <section2/>
     <section3/>
@@ -15,7 +16,8 @@ import $ from "jquery";
 import "fullpage.js";
 
 import MainPage from "../pages/main";
-import Preface from "../pages/preface";
+import Introduction from "../pages/introduction";
+import Content from "../pages/content";
 
 import section1 from "../pages/section1";
 import section2 from "../pages/section2";
@@ -28,12 +30,13 @@ export default {
   name: "page",
   components: {
     MainPage,
-    Preface,
+    Introduction,
     section1,
     section2,
     section3,
     section4,
-    Thanks
+    Thanks,
+    Content
   },
   computed: {
     el() {
@@ -69,9 +72,10 @@ export default {
   methods: {
     getAnchors() {
       let pages = {
-        data: [1, 1, 1, 1, 1, 1, 2],
+        data: [1, 1, 1, 1, 1, 1, 1, 2],
         desc: [
           "home",
+          "content",
           "prePage",
           "1stPage",
           "2ndPage",

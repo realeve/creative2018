@@ -1,76 +1,190 @@
 <template>
     <div class="section">
-        <div class="slide blue-section">
+        <div class="slide dark-section">
             <div class="wrap">
-                <h4>一、系统整体介绍</h4>
-                <p class="content">由各类
-                    <strong>开源技术</strong>搭建起的质量信息管理平台</p>
+                <h4>一、质量数据管理平台</h4>
+                <p class="content">让数据栩栩如生</p>
             </div>
         </div>
-        <v-chart :option="option.infoIsland" />
 
         <!-- <div class="slide">
             <div class="wrap">
-                <h4>系统主要构架</h4>
-                <div class="content" style="width:75%">
-                    <img src="/static/img/section01/info.svg" alt="系统构架" width="100%" height="100%">
+                <h4>1.基于开源技术的自主开发平台</h4>
+                <div class="content">
+                    <ol>
+                        <li>服务端：
+                            <strong>Restful</strong>数据接口设计、
+                            <strong>JWT</strong>无状态数据接口身份管理、PHP7（ThinkPHP)、
+                            <strong>NodeJS</strong>（阿里巴巴
+                            <strong>Egg.js</strong>框架）</li>
+                        <li>前端：
+                            <strong>ES6/ES7</strong>、
+                            <strong>ajax</strong>动态刷新、目前最流行的
+                            <strong>MVVM</strong>技术栈（Facebook 开源
+                            <strong>React</strong>响应式框架、Redux状态管理、React-router路由管理、React-Redux、Redux-saga异步流控制）、阿里巴巴Ant Design设计体系（
+                            <strong>Ant Design</strong>、Ant Design Pro、DVA、UMI）</li>
+                        <li>解决方案：
+                            <strong>github</strong>代码管理、
+                            <strong>Webpack</strong>源码打包、Babel转码、谷歌PWA(渐进式应用开发)应用模型</li>
+                        <li>数据可视化：百度开源可视化库
+                            <strong>Echarts</strong>
+                        </li>
+                    </ol>
                 </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="slide light-section">
+            <div class="wrap">
+                <h4>2.传统的报表系统</h4>
+                <div class="content">
+                    传统的报表平台操作繁琐、功能单一。
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section02/jtzy.png" class="full-img" alt="传统的报表系统">
             </div>
         </div> -->
         <div class="slide">
             <div class="wrap">
-                <img src="/static/img/section01/info.svg" class="full-img" alt="系统构架" width="100%" height="100%">
+                <h4>1.传统的报表系统中需要设置繁琐的查询设置</h4>
+                <img src="/static/img/section02/jtzy2.png" class="full-img" alt="传统的报表系统">
             </div>
         </div>
 
-        <!-- <v-page title="系统主要内容" content='<img src="/static/img/section01/info.svg" alt="系统构架" width="100%" height="100%">' /> -->
+        <!-- <div class="slide light-section">
+            <div class="wrap">
+                <h4>统一的报表参数</h4>
+                <div class="content">
+                    <a href="http://localhost/qualitytable?tid=77&fixheader=0&tstart=20170501&tend=20170530" target="_blank">
+                        提取印制行业报表的共有属性————时间</a>
+                </div>
+            </div>
+        </div> -->
 
         <div class="slide light-section">
             <div class="wrap">
-                <h4>基于ThinkPHP的数据管理平台</h4>
-                <div class="content">
-                    <p>通过对外部开源技术的吸收，目前的数据管理平台达到了
-                        <strong>当需要与数据库交互时无需编写服务端代码</strong> 的效果，极大提升了开发效率。</p>
+                <iframe src="/static/plan/table.html" class="full-page" frameborder="0"></iframe>
+            </div>
+        </div>
 
-                    <blockquote class="margin-top-20">
-                        该平台在成钞已接入生产、质量、机台作业等13个系统，同时也已经在公司多个子系统中多次使用。
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section01/1.png" class="full-img">
+            </div>
+        </div>
+
+        <div class="slide light-section">
+            <div class="wrap">
+                <h4>全业务覆盖</h4>
+                <div class="content">
+                    <strong>600个接口</strong>实现成钞公司印钞和钞纸质量管理的各个业务点
+                </div>
+            </div>
+        </div>
+        <!-- <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section02/20.png" class="full-img">
+            </div>
+        </div> -->
+        <!-- <v-page content='<img src="/static/img/section02/20.png" class="full-img"  alt="改进与优化">' /> -->
+
+        <div class="slide">
+            <div class="wrap">
+                <h4>2.数据可视化——以可视化数据驱动决策</h4>
+                <div class="content">
+                    <p>通过一年时间的深入研究，我们将
+                        <strong>百度的开源数据可视化库ECharts</strong>广泛应用到了成钞的生产应用中。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section02/10.png" class="full-img" alt="数据可视化在生产上的应用">
+            </div>
+        </div>
+
+        <v-chart content='(1)钞纸机检' :option="option.paperFakeDistribute" /> -->
+
+        <v-chart content='(1)钞纸机检' :option="option.fakeType" />
+        <!-- <v-page content='<img src="/static/img/section02/13.png" class="full-img" alt="直方图的应用——更均匀分布的定量指标">' /> -->
+
+        <!-- <v-page content='<img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">' /> -->
+
+        <v-chart content='(2)钞纸机检' :option="option.paperWeight" />
+        <v-chart content='(2)钞纸机检' :option="option.paperWeight2" />
+        <!-- <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section02/13.png" class="full-img" alt="直方图的应用——更均匀分布的定量指标">
+            </div>
+        </div> -->
+        <!-- <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">
+            </div>
+        </div> -->
+        <v-chart content='(4)钞纸工艺质量' :option="option.physicIndex" />
+
+        <!-- <v-chart content='(5)印码工序' :option="option.code" /> -->
+        <v-chart content='(6)机检开包量' :option="option.openNum" />
+
+        <div class="slide">
+            <div class="wrap">
+                <h4>3.模块化实现</h4>
+                <div class="content">
+                    <blockquote>
+                        <p>为了保证报表和图表模块的通用性，我们对系统功能实现了良好的模块化封装。</p>
                     </blockquote>
                 </div>
             </div>
         </div>
+
         <div class="slide">
             <div class="wrap">
-                <img src="/static/img/section01/infopub.jpg" class="full-img" alt="工艺质量管理平台">
+                <img src="/static/img/section01/info.svg" class="full-img" alt="系统构架">
             </div>
         </div>
 
         <div class="slide">
             <div class="wrap">
-                <img src="/static/img/section01/kpi.jpg" class="full-img" alt="部门履职能力评价">
-            </div>
-        </div>
-
-        <!-- <v-page title="" content='<img src="/static/img/section01/infopub.jpg" alt="工艺质量管理平台">' /> -->
-
-        <!-- <v-page title="部门履职能力评价系统" content='<img src="/static/img/section01/kpi.jpg" alt="部门履职能力评价">' /> -->
-
-        <div class="slide light-section">
-            <div class="wrap">
-                <h4>基于ThinkPHP的数据管理平台</h4>
+                <h4>4.与印制行业深度结合的特色功能</h4>
                 <div class="content">
-                    <blockquote class="margin-top-20">
-                        <p>数据管理平台主要面向于开发者，涵盖了主流的mysql/oracle/SQL Server三大数据库。</p>
-                        <p>目前已经完成该部分功能的重构并开源在
-                            <strong>github</strong>上，另外基于NodeJS方案(阿里巴巴Egg.js框架)的API管理模块也基本完成。</p>
-                    </blockquote>
+                    <p>我们针对印制行业的特点开发了许多特色功能，包含但不仅限于以下这些：</p>
+                    <ol>
+                        <li>钞纸、印钞
+                            <strong>全流程</strong>生产质量信息追溯</li>
+                        <li>钞纸
+                            <strong>物理指标</strong>范围动态分析</li>
+                        <li>印钞产品
+                            <strong>缺陷图像</strong>快速在线查看</li>
+                        <li>印钞质量
+                            <strong>实时监控与智能预警</strong>
+                        </li>
+                        <li>核查产品
+                            <strong>作废情况智能分析</strong>
+                        </li>
+                        <li>印钞
+                            <strong>批量车号与冠号信息追溯</strong>及自动汇总</li>
+                        <li>印钞
+                            <strong>机检漏废</strong>原因自动分析</li>
+                        <li>每日质量信息
+                            <strong>实时推送</strong>
+                        </li>
+                        <li>...</li>
+                    </ol>
                 </div>
             </div>
             <arc-line :fill="'#4fc08d'"></arc-line>
         </div>
+
     </div>
 </template>
+
 <script>
-import option from "../lib/option/section1";
+import option from "../lib/option/section2";
 
 export default {
   data() {

@@ -1,7 +1,9 @@
 /*样式设置*/
 
-@title-size: 30pt;
-@text-size: 20pt;
+@title-size: 44pt;
+@text-size: 30pt;
+@blockquote-size: 24pt;
+
 @orange: #c0392b;
 @red: #e06665;
 @white: #fff;
@@ -204,10 +206,12 @@
 /*END: 提示信息：按键、计时器、页码 */
 
 /* slide 内页样式 */
-
-.slide video {
+.full-page {
   width: 100%;
   height: 100%;
+}
+.slide video {
+  .full-page;
   object-fit: cover;
 }
 
@@ -246,7 +250,7 @@
     border-top-right-radius: 2px;
     color: @main-text;
     padding: 0.5em 1em; // margin: 0;
-    font-size: 16pt;
+    font-size: @blockquote-size;
     &:before {
       content: "!";
       background-color: @quote-color;
@@ -281,6 +285,7 @@
   }
   .full-img {
     border: none;
+    margin: 0;
   }
   ol {
     margin-left: 1em;

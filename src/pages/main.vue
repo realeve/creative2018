@@ -8,9 +8,9 @@
         <span class="key">F11</span> 键进入全屏</p>
       <div class="title">
         <div class="main_title">
-          <h2>行业青年“创新创业”课题报告</h2>
+          <h2>青年“创新创业”课题报告</h2>
           <h3>成钞公司
-            <span class="underline">质量数据管理平台</span>开发与应用</h3>
+            <span class="underline">质量管理系统</span>开发与应用</h3>
           <small>印钞管理部 李宾</small>
         </div>
         <small class="footer">成都印钞有限公司</small>

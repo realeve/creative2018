@@ -2,135 +2,69 @@
     <div class="section">
         <div class="slide dark-section">
             <div class="wrap">
-                <h4>三、数据深度应用</h4>
+                <h4>三、工艺分流调度系统</h4>
                 <div class="content">
-                    以数据驱动决策
+                    用大数据指导质量管理。
                 </div>
             </div>
         </div>
         <div class="slide">
             <div class="wrap">
+                <h4>背景</h4>
                 <div class="content">
-                    <h4>1.实时监控与推送</h4>
-                    <p>我们通过提高数据采集频率实现了信息的实时监测，同时借助于ajax技术将异常信息通过腾讯通实时推送到桌面。</p>
+                    <blockquote>前序的工作中我们实现了
+                        <strong>信息流</strong>(数据信息和文字信息)的有效传递，尚未对
+                        <strong>物流</strong>做任何控制，这也成为了2018年“质量提升年”的一个工作方向。本部分的工艺分流调度系统主要解决以下两个问题：</blockquote>
+                    <ol class="margin-top-20">
+                        <li>码后核查4%人工随机抽检无法覆盖所有印刷机台</li>
+                        <li>成钞公司综合立体库试运行后对
+                            <strong>码后核查工艺分流产品(“四新产品”)的调度</strong>
+                        </li>
+                    </ol>
                 </div>
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section03/01.png" class="full-img" alt="消息推送">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section03/02.png" class="full-img" alt="远程控制">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section03/02-2.png" class="full-img" alt="在线监测">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section03/03.png" class="full-img" alt="在线监测">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section03/04.png" class="full-img" alt="在线监测">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <div class="content">
-                    <h4>2.助推扁平化管理</h4>
-                    <p>2017年，我们又基于前面提到的数据平台开发了《工艺质量管理平台》，通过与数据平台的整合，实现了全流程信息的无缝沟通。</p>
-                </div>
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/query/01.png" class="full-img" alt="全流程信息追溯">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/query/02.png" class="full-img" alt="全流程信息追溯">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/query/03.png" class="full-img" alt="全流程信息追溯">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/query/04.png" class="full-img" alt="全流程信息追溯">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/query/05.png" class="full-img" alt="全流程信息追溯">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/query/06.png" class="full-img" alt="全流程信息追溯">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/query/07.png" class="full-img" alt="全流程信息追溯">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <div class="content">
-                    <h4>3.智能数据分析</h4>
-                    <p>通过对成钞公司生产与质量信息的整合与应用中，我们对相应的系统有了更深入的了解，
-                        <strong>对于许多涉及技术层面的更深层次数据分析，我们采用了自动化的方式来实现标准化管理。</strong>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section02/18.png" class="full-img" alt="机检数据自动分析">
-            </div>
-        </div>
-        <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section03/19.png" class="full-img" alt="机检数据自动分析">
             </div>
         </div>
 
         <div class="slide">
             <div class="wrap">
+                <h4>1.系统自动生成人工抽检产品</h4>
                 <div class="content">
-                    <h4>4.辅助领导决策</h4>
-                    <p>近几年来，成钞公司质量管理工作中
-                        <a href="./static/img/section03/siyin.html" target="_blank">有许多决策都是基于数据的深度分析来决定</a>，在此期间，数据可视化技术起到了非常重要的作用。</p>
+                    <blockquote>针对随机抽检无法覆盖所有机台的问题，我们设计了专门的算法(风险最低/效率优先)实现了所有印刷工序机台的全覆盖，经过2018年前12周的测试，每周实际抽检量仅比理论值多0.5车。</blockquote>
                 </div>
             </div>
         </div>
+
         <div class="slide">
             <div class="wrap">
-                <img src="/static/img/section03/05.png" class="full-img" alt="机检数据自动分析">
+                <img src="/static/img/section03/06.png" class="full-img" alt="工艺调度">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <h4>2.质量信息对立体库的控制</h4>
+                <ol>
+                    <li>产品工艺分流的环节
+                        <strong>发布工艺分流任务</strong>(四新/异常品)</li>
+                    <li>任务调度系统对所有任务自动定时扫描</li>
+                    <li>调度系统对符合条件的产品向立体库发起调度指令</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section03/07.png" class="full-img" alt="工艺调度">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <h4>迈向智能制造</h4>
+                <div class="content">通过质量信息对物流的智能控制，让我们可以根据前工序的生产情况自动决定产品后续的走向，实现成钞公司在智能制造中的第一步探索。</div>
             </div>
             <arc-line :fill="'#c0392b'"></arc-line>
         </div>
 
     </div>
 </template>
-
-<script>
-import option from "../lib/option/section3";
-export default {
-  data() {
-    return {
-      option
-    };
-  }
-};
-</script>
