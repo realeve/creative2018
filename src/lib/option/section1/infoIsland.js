@@ -17,7 +17,7 @@ let nodes = [
   { category: 1, name: "批量报废", value: 8 },
   { category: 1, name: "切纸机生产原始信息", value: 8 },
   { category: 1, name: "凹印在线检测", value: 8 },
-  { category: 1, name: "装箱系统", value: 8 },
+  { category: 1, name: "印钞装箱系统", value: 8 },
   { category: 1, name: "OCR系统", value: 8 },
 
   { category: 1, name: "胶凹离线检测", value: 8 },
@@ -34,7 +34,7 @@ let nodes = [
   { category: 2, name: "大张数", value: 3 },
   { category: 2, name: "识别状态", value: 3 },
   { category: 2, name: "拒识数", value: 3 },
-  { category: 2, name: "生产时间", value: 3 },
+//   { category: 2, name: "生产时间", value: 3 },
   { category: 2, name: "识别时间", value: 3 },
   { category: 2, name: "成品率", value: 3 },
   { category: 2, name: "作废率1", value: 3 },
@@ -73,7 +73,7 @@ let nodes = [
   { category: 2, name: "机长2", value: 3 },
   { category: 2, name: "机长3", value: 3 },
   { category: 2, name: "机长4", value: 3 },
-  { category: 2, name: "机台", value: 3 },
+//   { category: 2, name: "机台", value: 3 },
   { category: 2, name: "检测时间", value: 3 },
   { category: 2, name: "总分", value: 3 },
   { category: 2, name: "墨色", value: 3 },
@@ -108,10 +108,10 @@ let nodes = [
   { category: 2, name: "实废数1", value: 3 },
   { category: 2, name: "漏废数1", value: 3 },
   { category: 2, name: "大张废1", value: 3 },
-  { category: 2, name: "实废类型1", value: 3 },
-  { category: 2, name: "实废数1", value: 3 },
-  { category: 2, name: "漏废数1", value: 3 },
-  { category: 2, name: "大张废1", value: 3 },
+//   { category: 2, name: "实废类型1", value: 3 },
+//   { category: 2, name: "实废数1", value: 3 },
+//   { category: 2, name: "漏废数1", value: 3 },
+//   { category: 2, name: "大张废1", value: 3 },
   { category: 2, name: "开位1", value: 3 },
   { category: 2, name: "宏区编号1", value: 3 },
   { category: 2, name: "好品率1", value: 3 },
@@ -120,14 +120,14 @@ let nodes = [
   { category: 2, name: "正面缺陷1", value: 3 },
   { category: 2, name: "背面缺陷1", value: 3 },
   { category: 2, name: "透视缺陷1", value: 3 },
-  { category: 2, name: "实废类型2", value: 3 },
+//   { category: 2, name: "实废类型2", value: 3 },
   { category: 2, name: "实废数2", value: 3 },
-  { category: 2, name: "漏废数2", value: 3 },
+//   { category: 2, name: "漏废数2", value: 3 },
   { category: 2, name: "大张废2", value: 3 },
   { category: 2, name: "实废类型2", value: 3 },
-  { category: 2, name: "实废数2", value: 3 },
+//   { category: 2, name: "实废数2", value: 3 },
   { category: 2, name: "漏废数2", value: 3 },
-  { category: 2, name: "大张废2", value: 3 },
+//   { category: 2, name: "大张废2", value: 3 },
   { category: 2, name: "开位2", value: 3 },
   { category: 2, name: "宏区编号2", value: 3 },
   { category: 2, name: "好品率2", value: 3 },
@@ -149,15 +149,31 @@ let nodes = [
   { category: 2, name: "机型", value: 3 },
   { category: 2, name: "班组", value: 3 },
   { category: 2, name: "班次", value: 3 },
-  { category: 2, name: "生产时间", value: 3 },
-  { category: 2, name: "检测时间", value: 3 },
+//   { category: 2, name: "生产时间", value: 3 },
+//   { category: 2, name: "检测时间", value: 3 },
   { category: 2, name: "产量", value: 3 },
   { category: 2, name: "工序1", value: 3 },
   { category: 2, name: "工序2", value: 3 },
   { category: 2, name: "作业记录", value: 3 },
   { category: 2, name: "大万号1", value: 3 },
   { category: 2, name: "大万号2", value: 3 },
-  { category: 2, name: "大万号3", value: 3 }
+//   { category: 2, name: "大万号3", value: 3 }
+
+  { category: 2, name: "箱号", value: 3 },
+  { category: 2, name: "首张印码号", value: 3 }, 
+  { category: 2, name: "装箱时间", value: 3 }, 
+  { category: 2, name: "装箱机台", value: 3 },  
+
+  { category: 2, name: "识码时间", value: 3 },  
+  { category: 2, name: "实际开包量", value: 3 },  
+  { category: 2, name: "多取出数", value: 3 },  
+  { category: 2, name: "未取出数", value: 3 },  
+  { category: 2, name: "缺陷开数", value: 3 },  
+
+
+  { category: 2, name: "喷码号", value: 3 },  
+  { category: 2, name: "抽样张数", value: 3 },  
+
 ];
 
 let links = [
@@ -259,7 +275,7 @@ let links = [
   { source: "生产信息", target: "机长4", weight: 1 },
   { source: "生产信息", target: "机型", weight: 1 },
   { source: "生产信息", target: "班组", weight: 1 },
-  { source: "生产信息", target: "生产时间", weight: 1 },
+//   { source: "生产信息", target: "生产时间", weight: 1 },
   { source: "生产信息", target: "冠字", weight: 1 },
   { source: "生产信息", target: "产量", weight: 1 },
   { source: "生产信息", target: "班次", weight: 1 },
@@ -296,11 +312,29 @@ let links = [
   { source: "小张核查", target: "宏区编号2", weight: 1 },
   { source: "小张核查", target: "大张废2", weight: 1 },
 
-  { source: "大万号", target: "装箱系统", weight: 1 },
+  { source: "大万号", target: "印钞装箱系统", weight: 1 },
+  { source: "印钞装箱系统", target: "箱号", weight: 3 },
+  { source: "印钞装箱系统", target: "首张印码号", weight: 3 },
+  { source: "印钞装箱系统", target: "装箱时间", weight: 3 },
+  { source: "印钞装箱系统", target: "装箱机台", weight: 3 },
+
   { source: "大万号", target: "OCR系统", weight: 1 },
+  { source: "冠字号", target: "OCR系统", weight: 1 },
+  { source: "OCR系统", target: "识码时间", weight: 3 },
+  { source: "OCR系统", target: "实际开包量", weight: 3 },
+  { source: "OCR系统", target: "多取出数", weight: 3 },
+  { source: "OCR系统", target: "未取出数", weight: 3 },
+  { source: "OCR系统", target: "缺陷开数", weight: 3 },
+
   { source: "大万号", target: "在线清数", weight: 1 },
+  { source: "在线清数", target: "喷码号", weight: 3 },
+  { source: "在线清数", target: "抽样张数", weight: 3 },
+
+
   { source: "大万号", target: "凹印在线检测", weight: 1 },
   { source: "机台作业", target: "清分机检", weight: 1 },
+
+
 
   { source: "工艺质量管理平台", target: "轴号", weight: 5 },
   { source: "工艺质量管理平台", target: "大万号", weight: 5 },
@@ -333,7 +367,7 @@ links = links.map(item => {
   return item;
 });
 
-export default {
+const option = {
   backgroundColor: "#313640",
   // 默认色板
   color: [
@@ -389,7 +423,7 @@ export default {
     data: ["主数据", "信息系统", "基础信息", "元信息"],
     selected: {
       主数据: false,
-      元信息: false
+    //   元信息: false
     },
     textStyle: {
       color: "#eee"
@@ -449,3 +483,6 @@ export default {
     }
   ]
 };
+
+
+export default option;

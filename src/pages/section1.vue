@@ -49,7 +49,7 @@
         </div> -->
         <div class="slide">
             <div class="wrap">
-                <h4>1.传统的报表系统中需要设置繁琐的查询设置</h4>
+                <h4>1.传统的报表系统</h4>
                 <img src="/static/img/section02/jtzy2.png" class="full-img" alt="传统的报表系统">
             </div>
         </div>
@@ -95,8 +95,7 @@
             <div class="wrap">
                 <h4>2.数据可视化——以可视化数据驱动决策</h4>
                 <div class="content">
-                    <p>通过一年时间的深入研究，我们将
-                        <strong>百度的开源数据可视化库ECharts</strong>广泛应用到了成钞的生产应用中。</p>
+                    <strong>百度开源数据可视化库ECharts</strong>
                 </div>
             </div>
         </div>
@@ -136,7 +135,7 @@
                 <h4>3.模块化实现</h4>
                 <div class="content">
                     <blockquote>
-                        <p>为了保证报表和图表模块的通用性，我们对系统功能实现了良好的模块化封装。</p>
+                        通过模块化的设计，保证了系统功能的快速开发迭代。
                     </blockquote>
                 </div>
             </div>
@@ -157,7 +156,7 @@
                         <li>钞纸、印钞
                             <strong>全流程</strong>生产质量信息追溯</li>
                         <li>钞纸
-                            <strong>物理指标</strong>范围动态分析</li>
+                            <strong>检测指标</strong>范围动态分析</li>
                         <li>印钞产品
                             <strong>缺陷图像</strong>快速在线查看</li>
                         <li>印钞质量
@@ -166,12 +165,12 @@
                         <li>核查产品
                             <strong>作废情况智能分析</strong>
                         </li>
-                        <li>印钞
+                        <li>
                             <strong>批量车号与冠号信息追溯</strong>及自动汇总</li>
-                        <li>印钞
+                        <li>
                             <strong>机检漏废</strong>原因自动分析</li>
-                        <li>每日质量信息
-                            <strong>实时推送</strong>
+                        <li>质量信息
+                            <strong>每日实时推送</strong>
                         </li>
                         <li>...</li>
                     </ol>
