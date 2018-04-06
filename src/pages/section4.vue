@@ -1,8 +1,8 @@
 <template>
     <div class="section">
-        <div class="slide dark-section">
+        <div class="slide blue-gardiant-section">
             <div class="wrap">
-                <h4>四、总结与规划</h4>
+                <h4>五、总结与规划</h4>
                 <div class="content">
                     对公司的主业生产流程的认识，对新技术的学习和应用，对质量管理工作带来的切实提升。
                 </div>

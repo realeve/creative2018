@@ -1,6 +1,6 @@
 <template>
     <div class="section">
-        <div class="slide puple-section">
+        <div class="slide blue-gardiant-section">
             <div class="wrap">
                 <h4>一、质量数据管理平台</h4>
                 <p class="content">让数据栩栩如生</p>
@@ -183,7 +183,7 @@
                     </ol>
                 </div>
             </div>
-            <arc-line :fill="'#4fc08d'"></arc-line>
+            <!-- <arc-line :fill="'#24243e'"></arc-line> -->
         </div>
     </div>
 </template>

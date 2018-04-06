@@ -1,5 +1,5 @@
 <template>
-  <div class="section blue-section">
+  <div class="section blue-gardiant-section">
     <div class="wrap">
       <h4>目录</h4>
       <p class="content">
@@ -12,6 +12,6 @@
         </ol>
       </p>
     </div>
-    <arc-line :fill="'#ff5722'"></arc-line>
+    <!-- <arc-line :fill="'#24243e'"></arc-line> -->
   </div>
 </template>

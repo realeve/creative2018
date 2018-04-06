@@ -9,11 +9,11 @@
       <div class="title">
         <div class="main_title">
           <h2>青年“创新创业”课题报告</h2>
-          <h3>成钞公司
-            <span class="underline">质量管理系统</span>开发与应用</h3>
+          <h3>成钞公司质量管理系统
+            <br>开发与应用</h3>
           <small>印钞管理部 李宾</small>
         </div>
-        <small class="footer">成都印钞有限公司</small>
+        <!-- <small class="footer">成都印钞有限公司</small> -->
       </div>
     </div>
   </div>
@@ -53,32 +53,34 @@ export default {
 }
 
 .main_title {
-  text-align: center;
+  text-align: left;
   flex: 1;
-  margin-top: 40%;
+  margin-top: 20%;
+  margin-left: 30%;
+  width: 100%;
   .content;
   small {
     color: #fff;
     font-size: 18pt;
-    padding: 0px 10px;
+    padding: 0;
   }
   h2 {
     font-size: 40pt;
-    background-image: -webkit-gradient(
-      linear,
-      0 0,
-      right 0,
-      from(#008aff),
-      to(#40e4d5)
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // background-image: -webkit-gradient(
+    //   linear,
+    //   0 0,
+    //   right 0,
+    //   from(#008aff),
+    //   to(#40e4d5)
+    // );
+    // -webkit-background-clip: text;
+    // background-clip: text;
+    // -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
   h3 {
     font-size: 30pt;
-    padding: 40px 0;
+    padding: 0 0 120px 0;
   }
 }
 

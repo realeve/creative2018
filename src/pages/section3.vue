@@ -2,7 +2,7 @@
     <div class="section">
         <div class="slide blue-gardiant-section">
             <div class="wrap">
-                <h4>三、工艺分流调度系统</h4>
+                <h4>四、工艺分流调度系统</h4>
                 <div class="content">
                     用大数据思维指导质量管理
                 </div>
@@ -63,7 +63,7 @@
                 <h4>迈向智能制造</h4>
                 <div class="content">通过质量信息对物流的智能控制，让我们可以根据前工序的生产情况自动决定产品后续的走向，实现成钞公司在智能制造中的第一步探索。</div>
             </div>
-            <arc-line :fill="'#3f51b5'"></arc-line>
+            <!-- <arc-line :fill="'#24243e'"></arc-line> -->
         </div>
 
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <div class="slide red-section">
+    <div class="slide blue-gardiant-section">
       <div class="wrap">
         <h4>背景</h4>
         <p class="content">
@@ -37,7 +37,7 @@
           </ul>
         </div>
       </div>
-      <arc-line :fill="'#7f00ff'"></arc-line>
+      <!-- <arc-line :fill="'#24243e'"></arc-line> -->
     </div>
   </div>
 </template> 

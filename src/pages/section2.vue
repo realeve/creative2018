@@ -1,6 +1,6 @@
 <template>
     <div class="section">
-        <div class="slide green-section">
+        <div class="slide blue-gardiant-section">
             <div class="wrap">
                 <h4>二、工艺质量管理平台</h4>
                 <p class="content">以问题为导向的PDCA管理模式</p>
@@ -105,7 +105,7 @@
                     </blockquote>
                 </div>
             </div>
-            <arc-line :fill="'#2af598'"></arc-line>
+            <!-- <arc-line :fill="'#24243e'"></arc-line> -->
         </div>
 
     </div>
