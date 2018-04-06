@@ -5,6 +5,7 @@
     <Introduction/>
     <section1/>
     <section2/>
+    <bipage/>
     <section3/>
     <section4/>
     <thanks/>
@@ -21,6 +22,7 @@ import Content from "../pages/content";
 
 import section1 from "../pages/section1";
 import section2 from "../pages/section2";
+import bipage from "../pages/bipage";
 import section3 from "../pages/section3";
 import section4 from "../pages/section4";
 
@@ -35,6 +37,7 @@ export default {
     section2,
     section3,
     section4,
+    bipage,
     Thanks,
     Content
   },
@@ -72,13 +75,14 @@ export default {
   methods: {
     getAnchors() {
       let pages = {
-        data: [1, 1, 1, 1, 1, 1, 1, 2],
+        data: [1, 1, 1, 1, 1, 1, 1, 1, 2],
         desc: [
           "home",
           "content",
           "prePage",
           "1stPage",
           "2ndPage",
+          "biPage",
           "3rdPage",
           "4thPage",
           "lastPage"

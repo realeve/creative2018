@@ -15,6 +15,9 @@
     <li data-menuanchor="2ndPage">
       <a href="#2ndPage">工艺质量管理</a>
     </li>
+    <li data-menuanchor="biPage">
+      <a href="#biPage">BI</a>
+    </li>
     <li data-menuanchor="3rdPage">
       <a href="#3rdPage">工艺分流调度</a>
     </li>
