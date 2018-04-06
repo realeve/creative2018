@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <div class="section" style="background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);">
     <div class="content" @click="initCanvas">
       <div class="container">
         <p>感谢聆听</p>

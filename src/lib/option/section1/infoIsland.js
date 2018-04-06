@@ -6,16 +6,17 @@ let nodes = [
 
   { category: 0, name: "工艺质量管理平台", value: 15 },
 
-  { category: 1, name: "物理站", value: 8 },
-  { category: 1, name: "化验站", value: 8 },
+  { category: 3, name: "物理站", value: 8 },
+  { category: 3, name: "化验站", value: 8 },
   { category: 1, name: "钞纸机检", value: 8 },
   { category: 1, name: "钞纸工艺", value: 8 },
-  { category: 1, name: "机读防伪指标", value: 8 },
-  { category: 1, name: "外观指标", value: 8 },
-  { category: 1, name: "机检在线抽查", value: 8 },
-  { category: 1, name: "损纸误废", value: 8 },
-  { category: 1, name: "批量报废", value: 8 },
-  { category: 1, name: "切纸机生产原始信息", value: 8 },
+  { category: 3, name: "机读防伪指标", value: 8 },
+  { category: 3, name: "外观指标", value: 8 },
+  { category: 3, name: "机检在线抽查", value: 8 },
+  { category: 3, name: "损纸误废", value: 8 },
+  { category: 3, name: "批量报废", value: 8 },
+  { category: 3, name: "切纸机生产原始信息", value: 8 },
+
   { category: 1, name: "凹印在线检测", value: 8 },
   { category: 1, name: "印钞装箱系统", value: 8 },
   { category: 1, name: "OCR系统", value: 8 },
@@ -28,13 +29,13 @@ let nodes = [
   { category: 1, name: "清分机检", value: 8 },
   { category: 1, name: "废品分析", value: 8 },
   { category: 1, name: "在线清数", value: 8 },
-  { category: 1, name: "单开分析仪", value: 8 },
+  { category: 1, name: "印钞特抽", value: 8 },
   { category: 1, name: "防伪指标", value: 8 },
   { category: 1, name: "库管信息", value: 8 },
   { category: 2, name: "大张数", value: 3 },
   { category: 2, name: "识别状态", value: 3 },
   { category: 2, name: "拒识数", value: 3 },
-//   { category: 2, name: "生产时间", value: 3 },
+  //   { category: 2, name: "生产时间", value: 3 },
   { category: 2, name: "识别时间", value: 3 },
   { category: 2, name: "成品率", value: 3 },
   { category: 2, name: "作废率1", value: 3 },
@@ -73,7 +74,7 @@ let nodes = [
   { category: 2, name: "机长2", value: 3 },
   { category: 2, name: "机长3", value: 3 },
   { category: 2, name: "机长4", value: 3 },
-//   { category: 2, name: "机台", value: 3 },
+  //   { category: 2, name: "机台", value: 3 },
   { category: 2, name: "检测时间", value: 3 },
   { category: 2, name: "总分", value: 3 },
   { category: 2, name: "墨色", value: 3 },
@@ -108,10 +109,10 @@ let nodes = [
   { category: 2, name: "实废数1", value: 3 },
   { category: 2, name: "漏废数1", value: 3 },
   { category: 2, name: "大张废1", value: 3 },
-//   { category: 2, name: "实废类型1", value: 3 },
-//   { category: 2, name: "实废数1", value: 3 },
-//   { category: 2, name: "漏废数1", value: 3 },
-//   { category: 2, name: "大张废1", value: 3 },
+  //   { category: 2, name: "实废类型1", value: 3 },
+  //   { category: 2, name: "实废数1", value: 3 },
+  //   { category: 2, name: "漏废数1", value: 3 },
+  //   { category: 2, name: "大张废1", value: 3 },
   { category: 2, name: "开位1", value: 3 },
   { category: 2, name: "宏区编号1", value: 3 },
   { category: 2, name: "好品率1", value: 3 },
@@ -120,14 +121,14 @@ let nodes = [
   { category: 2, name: "正面缺陷1", value: 3 },
   { category: 2, name: "背面缺陷1", value: 3 },
   { category: 2, name: "透视缺陷1", value: 3 },
-//   { category: 2, name: "实废类型2", value: 3 },
+  //   { category: 2, name: "实废类型2", value: 3 },
   { category: 2, name: "实废数2", value: 3 },
-//   { category: 2, name: "漏废数2", value: 3 },
+  //   { category: 2, name: "漏废数2", value: 3 },
   { category: 2, name: "大张废2", value: 3 },
   { category: 2, name: "实废类型2", value: 3 },
-//   { category: 2, name: "实废数2", value: 3 },
+  //   { category: 2, name: "实废数2", value: 3 },
   { category: 2, name: "漏废数2", value: 3 },
-//   { category: 2, name: "大张废2", value: 3 },
+  //   { category: 2, name: "大张废2", value: 3 },
   { category: 2, name: "开位2", value: 3 },
   { category: 2, name: "宏区编号2", value: 3 },
   { category: 2, name: "好品率2", value: 3 },
@@ -149,31 +150,41 @@ let nodes = [
   { category: 2, name: "机型", value: 3 },
   { category: 2, name: "班组", value: 3 },
   { category: 2, name: "班次", value: 3 },
-//   { category: 2, name: "生产时间", value: 3 },
-//   { category: 2, name: "检测时间", value: 3 },
+  //   { category: 2, name: "生产时间", value: 3 },
+  //   { category: 2, name: "检测时间", value: 3 },
   { category: 2, name: "产量", value: 3 },
   { category: 2, name: "工序1", value: 3 },
   { category: 2, name: "工序2", value: 3 },
   { category: 2, name: "作业记录", value: 3 },
   { category: 2, name: "大万号1", value: 3 },
   { category: 2, name: "大万号2", value: 3 },
-//   { category: 2, name: "大万号3", value: 3 }
+  //   { category: 2, name: "大万号3", value: 3 }
 
   { category: 2, name: "箱号", value: 3 },
-  { category: 2, name: "首张印码号", value: 3 }, 
-  { category: 2, name: "装箱时间", value: 3 }, 
-  { category: 2, name: "装箱机台", value: 3 },  
+  { category: 2, name: "首张印码号", value: 3 },
+  { category: 2, name: "装箱时间", value: 3 },
+  { category: 2, name: "装箱机台", value: 3 },
 
-  { category: 2, name: "识码时间", value: 3 },  
-  { category: 2, name: "实际开包量", value: 3 },  
-  { category: 2, name: "多取出数", value: 3 },  
-  { category: 2, name: "未取出数", value: 3 },  
-  { category: 2, name: "缺陷开数", value: 3 },  
+  { category: 2, name: "识码时间", value: 3 },
+  { category: 2, name: "实际开包量", value: 3 },
+  { category: 2, name: "多取出数", value: 3 },
+  { category: 2, name: "未取出数", value: 3 },
+  { category: 2, name: "缺陷开数", value: 3 },
 
+  { category: 2, name: "喷码号", value: 3 },
+  { category: 2, name: "抽样张数", value: 3 },
 
-  { category: 2, name: "喷码号", value: 3 },  
-  { category: 2, name: "抽样张数", value: 3 },  
+  { category: 2, name: "检封裁切人工评分", value: 3 },
 
+  { category: 2, name: "纸机好纸率", value: 3 },
+  { category: 2, name: "切纸机好纸率", value: 3 },
+  { category: 2, name: "纸机好纸数", value: 3 },
+  { category: 2, name: "切纸机好纸数", value: 3 },
+  { category: 2, name: "切纸机异常品数", value: 3 },
+  { category: 2, name: "一次封包率", value: 3 },
+  { category: 2, name: "返工率", value: 3 },
+
+  { category: 2, name: "过程质量控制水平", value: 3 }
 ];
 
 let links = [
@@ -209,21 +220,21 @@ let links = [
   { source: "库管信息", target: "入库人员", weight: 2 },
   { source: "库管信息", target: "机长2", weight: 2 },
   { source: "库管信息", target: "工序2", weight: 2 },
-  { source: "单开分析仪", target: "印码号", weight: 1 },
+  { source: "印钞特抽", target: "印码号", weight: 1 },
   { source: "印码号", target: "防伪指标", weight: 1 },
-  { source: "单开分析仪", target: "冠字号", weight: 2 },
-  { source: "单开分析仪", target: "印码号3", weight: 2 },
-  { source: "单开分析仪", target: "胶正得分", weight: 2 },
-  { source: "单开分析仪", target: "胶背得分", weight: 2 },
-  { source: "单开分析仪", target: "凹正得分", weight: 2 },
-  { source: "单开分析仪", target: "凹背得分", weight: 2 },
-  { source: "单开分析仪", target: "印码得分", weight: 2 },
-  { source: "单开分析仪", target: "裁切得分", weight: 2 },
-  { source: "单开分析仪", target: "纸张得分", weight: 2 },
-  { source: "单开分析仪", target: "评价总分", weight: 2 },
-  { source: "单开分析仪", target: "安全线1", weight: 2 },
-  { source: "单开分析仪", target: "竖号码", weight: 2 },
-  { source: "单开分析仪", target: "OVMI", weight: 2 },
+  { source: "印钞特抽", target: "冠字号", weight: 2 },
+  { source: "印钞特抽", target: "印码号3", weight: 2 },
+  { source: "印钞特抽", target: "胶正得分", weight: 2 },
+  { source: "印钞特抽", target: "胶背得分", weight: 2 },
+  { source: "印钞特抽", target: "凹正得分", weight: 2 },
+  { source: "印钞特抽", target: "凹背得分", weight: 2 },
+  { source: "印钞特抽", target: "印码得分", weight: 2 },
+  { source: "印钞特抽", target: "裁切得分", weight: 2 },
+  { source: "印钞特抽", target: "纸张得分", weight: 2 },
+  { source: "印钞特抽", target: "评价总分", weight: 2 },
+  { source: "印钞特抽", target: "安全线1", weight: 2 },
+  { source: "印钞特抽", target: "竖号码", weight: 2 },
+  { source: "印钞特抽", target: "OVMI", weight: 2 },
   { source: "防伪指标", target: "冠字号", weight: 2 },
   { source: "防伪指标", target: "W信号", weight: 1 },
   { source: "防伪指标", target: "荧光亮度", weight: 1 },
@@ -275,7 +286,7 @@ let links = [
   { source: "生产信息", target: "机长4", weight: 1 },
   { source: "生产信息", target: "机型", weight: 1 },
   { source: "生产信息", target: "班组", weight: 1 },
-//   { source: "生产信息", target: "生产时间", weight: 1 },
+  //   { source: "生产信息", target: "生产时间", weight: 1 },
   { source: "生产信息", target: "冠字", weight: 1 },
   { source: "生产信息", target: "产量", weight: 1 },
   { source: "生产信息", target: "班次", weight: 1 },
@@ -330,24 +341,32 @@ let links = [
   { source: "在线清数", target: "喷码号", weight: 3 },
   { source: "在线清数", target: "抽样张数", weight: 3 },
 
-
   { source: "大万号", target: "凹印在线检测", weight: 1 },
   { source: "机台作业", target: "清分机检", weight: 1 },
 
-
-
   { source: "工艺质量管理平台", target: "轴号", weight: 5 },
   { source: "工艺质量管理平台", target: "大万号", weight: 5 },
-  { source: "轴号", target: "物理站", weight: 1 },
-  { source: "轴号", target: "化验站", weight: 1 },
-  { source: "轴号", target: "钞纸机检", weight: 1 },
-  { source: "轴号", target: "钞纸工艺", weight: 1 },
-  { source: "轴号", target: "机读防伪指标", weight: 1 },
-  { source: "轴号", target: "外观指标", weight: 1 },
-  { source: "轴号", target: "机检在线抽查", weight: 1 },
-  { source: "轴号", target: "损纸误废", weight: 1 },
-  { source: "轴号", target: "批量报废", weight: 1 },
-  { source: "轴号", target: "切纸机生产原始信息", weight: 1 }
+
+  { source: "轴号", target: "钞纸机检", weight: 5 },
+  { source: "轴号", target: "钞纸工艺", weight: 5 },
+
+  { source: "钞纸工艺", target: "物理站", weight: 1 },
+  { source: "钞纸工艺", target: "化验站", weight: 1 },
+  { source: "印钞特抽", target: "机读防伪指标", weight: 1 },
+  { source: "印钞特抽", target: "检封裁切人工评分", weight: 1 },
+  { source: "钞纸工艺", target: "外观指标", weight: 1 },
+  { source: "钞纸工艺", target: "机检在线抽查", weight: 1 },
+  { source: "钞纸工艺", target: "损纸误废", weight: 1 },
+  { source: "钞纸工艺", target: "批量报废", weight: 1 },
+  { source: "钞纸工艺", target: "过程质量控制水平", weight: 1 },
+  { source: "钞纸机检", target: "切纸机生产原始信息", weight: 1 },
+  { source: "钞纸机检", target: "纸机好纸率", weight: 1 },
+  { source: "钞纸机检", target: "切纸机好纸率", weight: 1 },
+  { source: "钞纸机检", target: "纸机好纸数", weight: 1 },
+  { source: "钞纸机检", target: "切纸机好纸数", weight: 1 },
+  { source: "钞纸机检", target: "一次封包率", weight: 1 },
+  { source: "钞纸机检", target: "切纸机异常品数", weight: 1 },
+  { source: "钞纸机检", target: "返工率", weight: 1 }
 ];
 
 nodes = nodes.map((item, i) => {
@@ -422,8 +441,8 @@ const option = {
     x: "left",
     data: ["主数据", "信息系统", "基础信息", "元信息"],
     selected: {
-      主数据: false,
-    //   元信息: false
+      主数据: false
+      //   元信息: false
     },
     textStyle: {
       color: "#eee"
@@ -483,6 +502,5 @@ const option = {
     }
   ]
 };
-
 
 export default option;

@@ -55,7 +55,7 @@ export default {
 .main_title {
   text-align: center;
   flex: 1;
-  margin-top: 60%;
+  margin-top: 40%;
   .content;
   small {
     color: #fff;
@@ -72,6 +72,7 @@ export default {
       to(#40e4d5)
     );
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
   }

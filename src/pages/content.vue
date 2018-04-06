@@ -12,6 +12,6 @@
         </ol>
       </p>
     </div>
-    <arc-line :fill="'#c0392b'"></arc-line>
+    <arc-line :fill="'#ff5722'"></arc-line>
   </div>
 </template>

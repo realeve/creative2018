@@ -1,6 +1,6 @@
 <template>
     <div class="section">
-        <div class="slide red-section">
+        <div class="slide dark-section">
             <div class="wrap">
                 <h4>四、总结与规划</h4>
                 <div class="content">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="slide">
+        <div class="slide light-section">
             <div class="wrap">
                 <h4>2.下一步计划</h4>
                 <div class="content">

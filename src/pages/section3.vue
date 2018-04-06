@@ -1,6 +1,6 @@
 <template>
     <div class="section">
-        <div class="slide dark-section">
+        <div class="slide blue-gardiant-section">
             <div class="wrap">
                 <h4>三、工艺分流调度系统</h4>
                 <div class="content">
@@ -63,7 +63,7 @@
                 <h4>迈向智能制造</h4>
                 <div class="content">通过质量信息对物流的智能控制，让我们可以根据前工序的生产情况自动决定产品后续的走向，实现成钞公司在智能制造中的第一步探索。</div>
             </div>
-            <arc-line :fill="'#c0392b'"></arc-line>
+            <arc-line :fill="'#3f51b5'"></arc-line>
         </div>
 
     </div>

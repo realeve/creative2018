@@ -1,6 +1,6 @@
 <template>
     <div class="section">
-        <div class="slide dark-section">
+        <div class="slide puple-section">
             <div class="wrap">
                 <h4>一、质量数据管理平台</h4>
                 <p class="content">让数据栩栩如生</p>
@@ -64,26 +64,24 @@
             </div>
         </div> -->
 
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section02/daterange.png" class="full-img">
+            </div>
+        </div>
+
         <div class="slide light-section">
             <div class="wrap">
                 <iframe src="/static/plan/table.html" class="full-page" frameborder="0"></iframe>
             </div>
         </div>
 
-        <div class="slide">
+        <!-- <div class="slide">
             <div class="wrap">
                 <img src="/static/img/section01/1.png" class="full-img">
             </div>
-        </div>
+        </div> -->
 
-        <div class="slide light-section">
-            <div class="wrap">
-                <h4>全业务覆盖</h4>
-                <div class="content">
-                    <strong>600个接口</strong>实现成钞公司印钞和钞纸质量管理的各个业务点
-                </div>
-            </div>
-        </div>
         <!-- <div class="slide">
             <div class="wrap">
                 <img src="/static/img/section02/20.png" class="full-img">
@@ -130,13 +128,22 @@
         <!-- <v-chart content='(5)印码工序' :option="option.code" /> -->
         <v-chart content='(6)机检开包量' :option="option.openNum" />
 
-        <div class="slide">
+        <!-- <div class="slide">
             <div class="wrap">
                 <h4>3.模块化实现</h4>
                 <div class="content">
                     <blockquote>
                         通过模块化的设计，保证了系统功能的快速开发迭代。
                     </blockquote>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="slide light-section">
+            <div class="wrap">
+                <h4>3.全业务覆盖</h4>
+                <div class="content">
+                    <strong>600个接口</strong>实现成钞公司印钞和钞纸质量管理的各个业务点
                 </div>
             </div>
         </div>
@@ -151,10 +158,12 @@
             <div class="wrap">
                 <h4>4.与印制行业深度结合的特色功能</h4>
                 <div class="content">
-                    <p>我们针对印制行业的特点开发了许多特色功能，包含但不仅限于以下这些：</p>
+                    <p>我们针对印制行业的特点开发了许多特色功能：</p>
                     <ol>
                         <li>钞纸、印钞
-                            <strong>全流程</strong>生产质量信息追溯</li>
+                            <strong>全流程</strong>信息追溯，车号/冠号信息
+                            <strong>批量追溯</strong>
+                        </li>
                         <li>钞纸
                             <strong>检测指标</strong>范围动态分析</li>
                         <li>印钞产品
@@ -166,8 +175,6 @@
                             <strong>作废情况智能分析</strong>
                         </li>
                         <li>
-                            <strong>批量车号与冠号信息追溯</strong>及自动汇总</li>
-                        <li>
                             <strong>机检漏废</strong>原因自动分析</li>
                         <li>质量信息
                             <strong>每日实时推送</strong>
@@ -178,7 +185,6 @@
             </div>
             <arc-line :fill="'#4fc08d'"></arc-line>
         </div>
-
     </div>
 </template>
 
