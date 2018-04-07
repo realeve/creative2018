@@ -1,6 +1,7 @@
 <template>
-  <div class="section blue-gardiant-section">
+  <div class="section white-text">
     <div class="wrap">
+      <v-galaxy/>
       <h4>目录</h4>
       <p class="content">
         <ol class="text-left">

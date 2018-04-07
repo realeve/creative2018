@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import VMenu from './components/Menu';
-import Page from './components/Page';
-import Tips from './components/Tips';
+import VMenu from "./components/Menu";
+import Page from "./components/Page";
+import Tips from "./components/Tips";
 
 export default {
   components: {
@@ -17,13 +17,13 @@ export default {
     Page,
     Tips
   },
-  name: 'app'
+  name: "app"
 };
 </script>
 
 <style lang="less">
-@import './assets/css/reset.css';
-@import './assets/css/typed.css';
-@import './assets/css/slider.less';
-@import './assets/css/fullpage.css';
+@import "./assets/css/reset.css";
+@import "./assets/css/typed.css";
+@import "./assets/css/slider.less";
+@import "./assets/css/fullpage.css";
 </style>

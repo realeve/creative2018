@@ -20,6 +20,10 @@
   color: @white;
 }
 
+.white-bg {
+  background: @white;
+}
+
 .red-text {
   color: @quote-color;
 }
@@ -41,69 +45,8 @@
   .white-text;
 }
 
-.page-bg {
-  z-index: -1;
-  height: 100%;
-  left: 0;
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  transform: translate3d(0, 0, 0);
-  background-image: url(/static/img/galaxy.jpg);
-  background-position: bottom left;
-  background-repeat: repeat-x;
-  background-size: 1300px auto;
-  width: 3900px;
-  animation: bg 90s linear infinite;
-}
-
-.bg-dot {
-  z-index: -1;
-  height: 100%;
-  left: 0;
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  transform: translate3d(0, 0, 0);
-  background-image: url(/static/img/bg-dot.jpg);
-  background-position: bottom left;
-  background-repeat: repeat-x;
-  background-size: 800px auto;
-  width: 2400px;
-  animation: bg2 90s linear infinite;
-}
-
-@keyframes bg {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-1300px, 0, 0);
-  }
-}
-
-@keyframes bg2 {
-  0% {
-    transform: translate3d(-1300px, 0, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
 .blue-gardiant-section {
-  // background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
-  position: relative;
-  // background: linear-gradient(
-  //     to bottom,
-  //     rgba(63, 56, 56, 0.6),
-  //     rgba(63, 56, 56, 0.4)
-  //   ),
-  //   url(/static/img/galaxy.jpg);
-  // background: url(/static/img/galaxy.jpg);
-  // background-size: cover;
-  // background-position: center;
-  .page-bg;
+  background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
   .white-text;
 }
 
@@ -129,7 +72,6 @@
   );
   .white-text;
 }
-
 .blue-section {
   background-color: @vblue;
   .white-text;
@@ -147,55 +89,41 @@
     }
   }
 }
-
 .light-red-section {
   background-color: @light-red;
 }
-
 /* 文本对齐及样式 */
-
 .text-center {
   text-align: center;
 }
-
 .text-left {
   text-align: left;
 }
-
 .text-right {
   text-align: right;
 }
-
 .thin-text {
   font-weight: 100;
 }
-
 /*水平对齐*/
-
 .center {
   display: flex;
   justify-content: center;
 }
-
 .right {
   display: flex;
   justify-content: flex-end;
 }
-
 .left {
   display: flex;
   justify-content: flex-start;
 }
-
 /*垂直对齐*/
-
 .v-center {
   display: flex;
   align-items: center;
 }
-
 /* 图片页背景 */
-
 .page,
 .about {
   background-color: #222;
@@ -204,9 +132,8 @@
   flex-wrap: wrap;
   padding: 0 10% 50px;
   text-align: center;
-  position: relative;
-  // background: linear-gradient(
-  //     to bottom,
+  position: relative; // background: linear-gradient(
+ //     to bottom,
   //     rgba(63, 56, 56, 0.6),
   //     rgba(63, 56, 56, 0.4)
   //   ),
@@ -215,9 +142,7 @@
   // background-position: center;
   .white-text;
 }
-
 /* 导航样式 */
-
 #nav {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 2px;
@@ -249,47 +174,38 @@
     }
   }
 }
-
 /*START: 提示信息：按键、计时器、页码 */
-
 .tip-text {
   position: absolute;
   font-size: 13px;
   color: #fff;
 }
-
 .tip,
 .page-no {
   .tip-text;
   right: 10px;
 }
-
 .tip-wrapper {
   padding: 3px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 2px;
 }
-
 .tip {
   top: 10px;
   .key {
     .tip-wrapper;
   }
 }
-
 .clock {
   .tip-text;
   left: 10px;
 }
-
 .page-no,
 .clock {
   bottom: 10px;
   .tip-wrapper;
 }
-
 /*END: 提示信息：按键、计时器、页码 */
-
 /* slide 内页样式 */
 .full-page {
   width: 100%;
@@ -299,15 +215,16 @@
   .full-page;
   object-fit: cover;
 }
-
 .wrap {
   .center;
   .v-center;
+  position: relative;
   flex-direction: column;
   height: 100%;
   margin: 0;
   padding: 0;
   font-size: @text-size;
+  z-index: 1;
   h4 {
     // .thin-text;
     padding-bottom: 10px;
@@ -316,6 +233,9 @@
   }
   .content {
     max-width: 80%;
+    z-index: 0;
+    margin-bottom: 0;
+    font-weight: normal;
     .text-left;
     p {
       margin: 20px 0;
@@ -335,7 +255,8 @@
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     color: @main-text;
-    padding: 0.5em 1em; // margin: 0;
+    padding: 0.5em 1em;
+    // margin: 0;
     font-size: @blockquote-size;
     &:before {
       content: "!";
@@ -375,17 +296,15 @@
   }
   ol {
     margin-left: 1em;
+    text-align: left;
   }
 }
-
 .underline {
   text-decoration: none;
-  box-shadow: 0 1px #eee;
+  box-shadow: 0 1px #aaa;
   padding-bottom: 2px;
 }
-
 /* 响应式布局 */
-
 .row {
   display: flex;
   .col {
@@ -400,7 +319,6 @@
   }
   .col-loop(12);
 }
-
 .margin-loop(@count) when(@count>0) {
   .margin-top-@{count} {
     margin-top: (1px * @count);
@@ -416,5 +334,4 @@
   }
   .margin-loop((@count - 10));
 }
-
 .margin-loop(100);

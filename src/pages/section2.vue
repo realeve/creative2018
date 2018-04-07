@@ -1,14 +1,15 @@
 <template>
     <div class="section">
-        <div class="slide blue-gardiant-section">
+        <div class="slide white-text">
             <div class="wrap">
+                <v-galaxy/>
                 <h4>二、工艺质量管理平台</h4>
                 <p class="content">以问题为导向的PDCA管理模式</p>
             </div>
         </div>
 
         <div class="slide">
-            <div class="wrap">
+            <div class="wrap white-bg">
                 <h4>工艺质量管理过程中关注的问题</h4>
                 <div class="content">
                     <ol>

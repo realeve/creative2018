@@ -1,7 +1,8 @@
 <template>
     <div class="section">
-        <div class="slide blue-gardiant-section">
+        <div class="slide white-text">
             <div class="wrap">
+                <v-galaxy/>
                 <h4>一、质量数据管理平台</h4>
                 <p class="content">让数据栩栩如生</p>
             </div>
@@ -48,7 +49,7 @@
             </div>
         </div> -->
         <div class="slide">
-            <div class="wrap">
+            <div class="wrap white-bg">
                 <h4>1.传统的报表系统</h4>
                 <img src="/static/img/section02/jtzy2.png" class="full-img" alt="传统的报表系统">
             </div>

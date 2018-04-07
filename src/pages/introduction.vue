@@ -1,7 +1,8 @@
 <template>
   <div class="section">
-    <div class="slide blue-gardiant-section">
+    <div class="slide white-text">
       <div class="wrap">
+        <v-galaxy/>
         <h4>背景</h4>
         <p class="content">
           随着公司对质量管理要求的不断提升，我们开发了本系统，主要解决了生产质量管理中遇到的四类问题：

@@ -55,13 +55,13 @@ export default {
 .main_title {
   text-align: left;
   flex: 1;
-  margin-top: 20%;
+  margin-top: 50%;
   margin-left: 30%;
   width: 100%;
   .content;
   small {
     color: #fff;
-    font-size: 18pt;
+    font-size: 22pt;
     padding: 0;
   }
   h2 {

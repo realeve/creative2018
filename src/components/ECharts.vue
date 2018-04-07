@@ -1,6 +1,6 @@
 <template>
   <div class="slide" :style="bgColor">
-    <div class="wrap">
+    <div class="wrap" :style="bgColor">
       <!-- <div class="content" v-if="content!=''" v-html="content"></div> -->
       <div ref="chart" class="chart" :style="{height:chartHeight}"></div>
     </div>

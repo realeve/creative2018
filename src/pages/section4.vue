@@ -1,15 +1,16 @@
 <template>
     <div class="section">
-        <div class="slide blue-gardiant-section">
+        <div class="slide white-text">
             <div class="wrap">
+                <v-galaxy/>
                 <h4>五、总结与规划</h4>
                 <div class="content">
-                    对公司的主业生产流程的认识，对新技术的学习和应用，对质量管理工作带来的切实提升。
+                    对公司的主业生产流程的认识<br>对新技术的学习和应用<br>对质量管理工作带来的提升
                 </div>
             </div>
         </div>
         <div class="slide">
-            <div class="wrap">
+            <div class="wrap white-bg">
                 <h4>1.总结</h4>
                 <div class="content">
                     <ol>
