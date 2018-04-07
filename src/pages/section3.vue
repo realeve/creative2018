@@ -64,7 +64,7 @@
                 <h4>迈向智能制造</h4>
                 <div class="content">通过质量信息对物流的智能控制，让我们可以根据前工序的生产情况自动决定产品后续的走向，实现成钞公司在智能制造中的第一步探索。</div>
             </div>
-            <!-- <arc-line :fill="'#24243e'"></arc-line> -->
+            <arc-line :fill="'#0e0e2a'"></arc-line>
         </div>
 
     </div>

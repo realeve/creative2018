@@ -1,7 +1,8 @@
 const state = {
   inited: false,
   typeStatus: false,
-  tips: ""
+  tips: "",
+  initCanvas: false
 };
 
 export default state;

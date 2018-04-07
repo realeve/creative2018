@@ -1,6 +1,6 @@
 <template>
   <div class="section" style="background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);">
-    <div class="content" @click="initCanvas">
+    <div class="content" @click="initCanvas2">
       <div class="container">
         <p>感谢聆听</p>
       </div>
@@ -169,11 +169,21 @@ export default {
       requestAnimationFrame(i);
     }
   },
-  mounted() {
-    this.initCanvas();
-    // this.initCanvas2();
-    // 由于echarts占用内存过多，不使用该动态版本
+  computed: {
+    canvasStatus() {
+      return this.$store.state.initCanvas;
+    }
+  },
+  watch: {
+    canvasStatus() {
+      this.initCanvas2();
+    }
   }
+  // mounted() {
+  //   // this.initCanvas();
+  //   // this.initCanvas2();
+  //   // 由于echarts占用内存过多，不使用该动态版本
+  // }
 };
 </script>
 

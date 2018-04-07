@@ -114,6 +114,9 @@ export default {
           // if (index == 2 && !this.typeStatus) {
           //   this.typeStatus = true;
           // }
+          if (anchorLink === "lastPage") {
+            this.$store.commit("initCanvas", true);
+          }
           this.setCurIdx(index, 0);
         },
         afterSlideLoad: (anchorLink, index, slideAnchor, slideIndex) => {

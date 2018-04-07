@@ -106,7 +106,7 @@
                     </blockquote>
                 </div>
             </div>
-            <!-- <arc-line :fill="'#24243e'"></arc-line> -->
+            <arc-line :fill="'#0e0e2a'"></arc-line>
         </div>
 
     </div>

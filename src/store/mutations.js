@@ -9,6 +9,9 @@ let mutations = {
   },
   setTips(state, val) {
     state.tips = val;
+  },
+  initCanvas(state, val) {
+    state.initCanvas = val;
   }
 };
 
