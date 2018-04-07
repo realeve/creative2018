@@ -441,8 +441,8 @@ const option = {
     x: "left",
     data: ["主数据", "信息系统", "基础信息", "元信息"],
     selected: {
-      主数据: false
-      //   元信息: false
+      主数据: false,
+      元信息: false
     },
     textStyle: {
       color: "#eee"
