@@ -1,7 +1,7 @@
 <template>
   <div class="section page">
     <video v-if="mobile" class="up_video" loop muted autoplay data-autoplay>
-      <source src="/static/video/theme.mp4" type="video/mp4">
+      <source src="../../static/video/theme.mp4" type="video/mp4">
     </video>
     <div class="wrap">
       <p class="tip">按
