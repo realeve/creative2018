@@ -3,7 +3,7 @@
         <div class="slide white-text">
             <div class="wrap">
                 <v-galaxy/>
-                <h4>四、工艺分流调度系统</h4>
+                <h4>四、工艺流转计划跟踪系统</h4>
                 <div class="content">
                     用大数据思维指导质量管理
                 </div>
@@ -25,7 +25,7 @@
             <div class="wrap white-bg">
                 <h4>背景</h4>
                 <div class="content">
-                    <p>本部分的工艺分流调度系统主要解决两个问题。</p>
+                    <p>本部分的工艺流转计划跟踪系统主要解决两个问题。</p>
                     <ol>
                         <li>人工大张随机抽检难以覆盖所有印刷机台</li>
                         <li>成钞公司综合立体库试运行后对
