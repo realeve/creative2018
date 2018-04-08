@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "lvjiande";
+    src: url("lvjiande.eot"); /* IE9 */
+    src: url("lvjiande.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("lvjiande.woff") format("woff"), /* chrome、firefox */
+    url("lvjiande.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("lvjiande.svg#lvjiande") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

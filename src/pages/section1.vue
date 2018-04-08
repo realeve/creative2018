@@ -159,8 +159,7 @@
             <div class="wrap">
                 <h4>4.与印制行业深度结合的特色功能</h4>
                 <div class="content">
-                    <p>我们针对印制行业的特点开发了许多特色功能：</p>
-                    <ol>
+                    <ol style="margin-top:0">
                         <li>钞纸、印钞
                             <strong>全流程</strong>信息追溯，车号/冠号信息
                             <strong>批量追溯</strong>

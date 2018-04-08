@@ -53,10 +53,10 @@
                 <div class="content">
                     <ol>
                         <li>
-                            <strong>覆盖所有用户</strong>：系统用户涉及到
-                            <strong>印钞、钞纸</strong>相关部门的工艺与机检人员、班组长、部门领导、公司分管领导等160余人。</li>
+                            <strong>覆盖所有用户</strong>：涉及
+                            <strong>印钞、钞纸</strong>相关部门的工艺、机检、班组长、部门领导、公司分管领导等160余人。</li>
                         <li>
-                            <strong>多种信息格式</strong>：文本、图片、附件等多种载体。
+                            <strong>多媒体格式</strong>：文本、图片、附件等多种载体。
                         </li>
                         <li>
                             <strong>系统间的高度整合</strong>：涉及的印钞车号和钞纸轴号自动关联到数据平台，方便查看原始信息。</li>
