@@ -5,7 +5,11 @@
     </video>
     <div class="wrap">
       <p class="tip">按
-        <span class="key">F11</span> 键全屏<br><span class="key">↑</span> <span class="key">↓</span> <span class="key">←</span> <span class="key">→</span> 翻页</p>
+        <span class="key">F11</span> 键全屏<br>
+        <span class="key">↑</span>
+        <span class="key">↓</span>
+        <span class="key">←</span>
+        <span class="key">→</span> 翻页</p>
       <div class="title">
         <div class="main_title">
           <h2>青年“创新创业”课题报告</h2>
@@ -66,8 +70,8 @@ export default {
     padding: 0;
   }
   h2 {
-    font-family: "lvjiande";
-    font-size: 50pt;
+    // font-family: "lvjiande";
+    font-size: 40pt;
     // background-image: -webkit-gradient(
     //   linear,
     //   0 0,
@@ -82,10 +86,10 @@ export default {
     font-weight: bold;
   }
   h3 {
-    font-family: "lvjiande";
-    font-size: 70pt;
+    // font-family: "lvjiande";
+    font-size: 60pt;
     padding: 0 0 70px 0;
-    margin-top:40px;
+    margin-top: 40px;
   }
 }
 
