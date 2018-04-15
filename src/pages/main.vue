@@ -66,8 +66,13 @@ export default {
   .content;
   small {
     color: #fff;
-    font-size: 22pt;
-    padding: 0;
+    font-size: 21pt;
+    border: 1px #fff solid;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 120px;
+    left: 40%;
   }
   h2 {
     // font-family: "lvjiande";
