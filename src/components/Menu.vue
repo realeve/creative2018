@@ -10,19 +10,19 @@
       <a href="#prePage">背景</a>
     </li>
     <li data-menuanchor="1stPage">
-      <a href="#1stPage">质量数据管理</a>
+      <a href="#1stPage">质量数据</a>
     </li>
     <li data-menuanchor="2ndPage">
-      <a href="#2ndPage">工艺质量管理</a>
+      <a href="#2ndPage">工艺质量</a>
     </li>
     <li data-menuanchor="biPage">
       <a href="#biPage">BI</a>
     </li>
     <li data-menuanchor="3rdPage">
-      <a href="#3rdPage">工艺流转计划跟踪</a>
+      <a href="#3rdPage">工艺流转跟踪</a>
     </li>
     <li data-menuanchor="4thPage">
-      <a href="#4thPage">总结与规划</a>
+      <a href="#4thPage">总结</a>
     </li>
   </ul>
-</template>
+</template> 

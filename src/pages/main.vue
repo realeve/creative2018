@@ -4,7 +4,7 @@
       <source src="../../static/video/theme.mp4" type="video/mp4">
     </video>
     <div class="wrap">
-      <p class="tip">按
+      <p class="tip" style="right:-20px;">按
         <span class="key">F11</span> 键全屏<br>
         <span class="key">↑</span>
         <span class="key">↓</span>
@@ -12,8 +12,8 @@
         <span class="key">→</span> 翻页</p>
       <div class="title">
         <div class="main_title">
-          <h2>青年“创新创业”课题报告</h2>
-          <h3>成钞公司质量管理系统开发与应用</h3>
+          <h3>青年“创新创业”成果报告</h3>
+          <h2>成钞公司质量管理系统开发与应用</h2>
           <small>印钞管理部 李宾</small>
         </div>
         <!-- <small class="footer">成都印钞有限公司</small> -->
@@ -52,31 +52,32 @@ export default {
 }
 
 .title {
-  display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  display: flex;
 }
 
 .main_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   flex: 1;
   // margin-left: 30%;
-  margin-top: 20%;
   width: 100%;
   .content;
   small {
     color: #fff;
-    font-size: 21pt;
+    font-size: 16pt;
     border: 1px #fff solid;
     padding: 5px 10px;
     border-radius: 4px;
     position: absolute;
-    bottom: 120px;
+    bottom: 40px;
     left: 40%;
   }
-  h2 {
+  h3 {
     // font-family: "lvjiande";
-    font-size: 40pt;
+    font-size: 30pt;
     // background-image: -webkit-gradient(
     //   linear,
     //   0 0,
@@ -90,9 +91,9 @@ export default {
     // -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
-  h3 {
+  h2 {
     // font-family: "lvjiande";
-    font-size: 60pt;
+    font-size: 40pt;
     padding: 0 0 70px 0;
     margin-top: 40px;
   }

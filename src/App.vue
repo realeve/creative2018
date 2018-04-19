@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <v-menu/>
+  <div class="menu-center">
+    <v-menu />
     <page/>
     <tips/>
   </div>
@@ -26,4 +26,11 @@ export default {
 @import "./assets/css/typed.css";
 @import "./assets/css/slider.less";
 @import "./assets/css/fullpage.css";
+
+.menu-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 </style>
