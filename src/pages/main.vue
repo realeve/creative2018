@@ -14,7 +14,7 @@
         <div class="main_title">
           <h3>青年“创新创业”成果报告</h3>
           <h2>成钞公司质量管理系统开发与应用</h2>
-          <small>印钞管理部 李宾</small>
+          <small>成都印钞有限公司 李宾</small>
         </div>
         <!-- <small class="footer">成都印钞有限公司</small> -->
       </div>
@@ -73,11 +73,11 @@ export default {
     border-radius: 4px;
     position: absolute;
     bottom: 40px;
-    left: 40%;
+    // left: 40%;
   }
   h3 {
     // font-family: "lvjiande";
-    font-size: 30pt;
+    font-size: 40pt;
     // background-image: -webkit-gradient(
     //   linear,
     //   0 0,
@@ -93,7 +93,7 @@ export default {
   }
   h2 {
     // font-family: "lvjiande";
-    font-size: 40pt;
+    font-size: 50pt;
     padding: 0 0 70px 0;
     margin-top: 40px;
   }

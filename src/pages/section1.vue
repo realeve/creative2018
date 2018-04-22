@@ -113,7 +113,7 @@
         <!-- <v-page content='<img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">' /> -->
 
         <v-chart content='(2)钞纸机检' :option="option.paperWeight" />
-        <v-chart content='(2)钞纸机检' :option="option.paperWeight2" />
+        <!-- <v-chart content='(2)钞纸机检' :option="option.paperWeight2" /> -->
         <!-- <div class="slide">
             <div class="wrap">
                 <img src="/static/img/section02/13.png" class="full-img" alt="直方图的应用——更均匀分布的定量指标">
@@ -124,7 +124,7 @@
                 <img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">
             </div>
         </div> -->
-        <v-chart content='(4)钞纸工艺质量' :option="option.physicIndex" />
+        <!-- <v-chart content='(4)钞纸工艺质量' :option="option.physicIndex" /> -->
 
         <!-- <v-chart content='(5)印码工序' :option="option.code" /> -->
         <v-chart content='(6)机检开包量' :option="option.openNum" />

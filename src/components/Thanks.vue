@@ -5,9 +5,9 @@
         <p>感谢聆听</p>
       </div>
       <div class="footer">
-        <p>成都印钞有限公司</p>
+        <p>成都印钞有限公司 印钞管理部</p>
         <p class="name">
-          <span>印钞管理部 李宾</span>
+          <span>李宾</span>
         </p>
       </div>
       <canvas ref="band"></canvas>
