@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <div class="slide light-section">
+        <!-- <div class="slide light-section">
             <div class="wrap">
                 <h4>3.基于问题导向的管理</h4>
                 <div class="content">
@@ -93,7 +93,7 @@
                     </ol>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="slide">
             <div class="wrap">
@@ -101,8 +101,8 @@
                 <div class="content">
                     <blockquote>
                         质量数据管理平台解决了
-                        <strong>数据信息传递</strong>的问题，<br> 工艺质量管理平台解决了
-                        <strong>文字信息传递</strong>的问题。<br> 通过信息技术与质量管理的有机结合，让成钞的质量管理工作更加高效运行。
+                        <strong>数据信息</strong>的问题，<br> 工艺质量管理平台解决了
+                        <strong>文字信息</strong>的问题。<br> 通过信息技术与质量管理的有机结合，让成钞的质量管理工作更加高效运行。
                     </blockquote>
                 </div>
             </div>

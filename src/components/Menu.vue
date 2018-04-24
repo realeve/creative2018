@@ -19,7 +19,7 @@
       <a href="#biPage">BI</a>
     </li>
     <li data-menuanchor="3rdPage">
-      <a href="#3rdPage">工艺流转跟踪</a>
+      <a href="#3rdPage">工艺流转</a>
     </li>
     <li data-menuanchor="4thPage">
       <a href="#4thPage">总结</a>

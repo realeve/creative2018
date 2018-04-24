@@ -472,7 +472,8 @@ const option = {
         color: "#eee",
         normal: {
           label: {
-            show: true
+            show: true,
+            fontSize: 20
           },
           nodeStyle: {
             brushType: "both",

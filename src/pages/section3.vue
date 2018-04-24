@@ -15,8 +15,7 @@
                 <div class="content">
                     <blockquote>前序的工作中我们实现了
                         <strong>信息流</strong>(数据信息和文字信息)的有效传递，尚未对
-                        <strong>物流</strong>做任何控制，这也成为了2018年“质量提升年”的一个工作方向。</blockquote>
-
+                        <strong>物流</strong>做任何控制，这也是我司2018“质量提升年”的工作方向。</blockquote>
                 </div>
             </div>
         </div>
@@ -25,12 +24,15 @@
             <div class="wrap white-bg">
                 <h4>背景</h4>
                 <div class="content">
-                    <p>本部分的工艺流转跟踪系统主要解决两个问题。</p>
+                    <p>本部分的工艺流转跟踪系统主要解决三个问题。</p>
                     <ol>
-                        <li>人工大张随机抽检难以覆盖所有印刷机台</li>
-                        <li>成钞公司综合立体库试运行后对
-                            <strong>码后核查工艺分流产品(“四新产品”)的调度</strong>
+                        <li>人工大张
+                            <strong>随机抽检</strong>难以覆盖所有印刷机台</li>
+                        <li>码后入立体库
+                            <strong>(四新产品)</strong>的调度
                         </li>
+                        <li>机台将
+                            <strong>生产异常信息</strong>随大万通知到质量管理人员</li>
                     </ol>
                 </div>
             </div>
@@ -39,8 +41,9 @@
         <div class="slide">
             <div class="wrap">
                 <h4>1.人工大张抽检自动排号</h4>
+                <p>从随机抽检到自动优选</p>
                 <div class="content">
-                    <blockquote>针对随机抽检难以覆盖所有机台的问题，我们设计了算法(风险最低/效率优先)实现了所有印刷工序机台的全覆盖。<br>经过2018年前12周的测试，实际抽检量仅比理论值多
+                    <blockquote>经过2018年前12周的测试，实际抽检量仅比理论值多
                         <strong>0.5车/周</strong>。</blockquote>
                 </div>
             </div>
@@ -57,9 +60,11 @@
                 <h4>2.质量系统对产品库的控制</h4>
                 <ol>
                     <li>工艺人员
-                        <strong>发布工艺分流任务</strong>(四新/异常品)</li>
-                    <li>调度系统后台处理任务</li>
-                    <li>调度系统向立体库发起调度指令</li>
+                        <strong>发布工艺流转任务</strong>(四新/异常品)</li>
+                    <li>调度系统后台处理任务，并向立体库发起调度指令</li>
+                    <li>系统根据四新任务完成情况
+                        <strong>实时跟踪进度、自动汇总生产/质量信息</strong>
+                    </li>
                 </ol>
             </div>
         </div>
@@ -67,6 +72,16 @@
         <div class="slide">
             <div class="wrap">
                 <img src="/static/img/section03/07.png" class="full-img" alt="工艺调度">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <h4>3.生产异常信息跟踪</h4>
+                <blockquote>
+                    机台人员发布信息(连续废、质量异常等)，当工序信息变更时实时推送给
+                    <strong>机检人员、工艺人员</strong>。
+                </blockquote>
             </div>
         </div>
 

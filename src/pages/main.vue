@@ -13,7 +13,7 @@
         <span class="key">→</span> 翻页</p>
       <div class="title">
         <div class="main_title">
-          <h3>青年“创新创业”成果报告</h3>
+          <h3>青年“创新创业”成果汇报</h3>
           <h2>成钞公司质量管理系统开发与应用</h2>
           <small>成都印钞有限公司 李宾</small>
         </div>

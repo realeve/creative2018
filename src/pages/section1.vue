@@ -98,49 +98,22 @@
             </div>
         </div>
 
-        <!-- <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section02/10.png" class="full-img" alt="数据可视化在生产上的应用">
-            </div>
-        </div -->
-        <div>
-            <div>
-                <v-chart content='(1)钞纸机检' :option="option.paperFakeDistribute" />
-                <v-chart content='(2)钞纸机检' :option="option.fakeType" />
-            </div>
-            <div>
-                <v-chart content='(3)钞纸机检' :option="option.paperWeight" />
-                <v-chart content='(4)钞纸工艺质量' :option="option.physicIndex" />
-            </div>
-            <div>
-                <v-chart content='(5)印码工序' :option="option.code" />
-                <v-chart content='(6)机检开包量' :option="option.openNum" />
-            </div>
-        </div>
-        <!-- <v-page content='<img src="/static/img/section02/13.png" class="full-img" alt="直方图的应用——更均匀分布的定量指标">' /> -->
-        <!-- <v-page content='<img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">' /> -->
-        <!-- <v-chart content='(2)钞纸机检' :option="option.paperWeight2" /> -->
-        <!-- <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section02/13.png" class="full-img" alt="直方图的应用——更均匀分布的定量指标">
-            </div>
-        </div> -->
-        <!-- <div class="slide">
-            <div class="wrap">
-                <img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">
-            </div>
-        </div> -->
-
-        <!-- <div class="slide">
-            <div class="wrap">
-                <h4>3.模块化实现</h4>
-                <div class="content">
-                    <blockquote>
-                        通过模块化的设计，保证了系统功能的快速开发迭代。
-                    </blockquote>
+        <div class="slide">
+            <div class="chart-gallery">
+                <div class="chart-gallery-item">
+                    <t-chart content='(1)钞纸机检' :option="option.paperFakeDistribute" />
+                    <t-chart content='(2)钞纸机检' :option="option.fakeType" />
+                </div>
+                <div class="chart-gallery-item">
+                    <t-chart content='(3)钞纸机检' :option="option.paperWeight" />
+                    <t-chart content='(4)钞纸工艺质量' :option="option.physicIndex" />
+                </div>
+                <div class="chart-gallery-item">
+                    <t-chart content='(5)印码工序' :option="option.code" />
+                    <t-chart content='(6)机检开包量' :option="option.openNum" />
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <div class="slide light-section">
             <div class="wrap">
@@ -181,7 +154,6 @@
                         <li>质量信息
                             <strong>每日实时推送</strong>
                         </li>
-                        <li>...</li>
                     </ol>
                 </div>
             </div>
@@ -192,8 +164,10 @@
 
 <script>
 import option from "../lib/option/section2";
+import TChart from "../components/Tinychart.vue";
 
 export default {
+  components: { TChart },
   data() {
     return {
       option
@@ -201,3 +175,18 @@ export default {
   }
 };
 </script>
+
+<style lang="less" scoped>
+.chart-gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  .chart-gallery-item {
+    width: 33.3%;
+    height: 50vh;
+  }
+}
+</style>
