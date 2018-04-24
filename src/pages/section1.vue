@@ -48,12 +48,12 @@
                 <img src="/static/img/section02/jtzy.png" class="full-img" alt="传统的报表系统">
             </div>
         </div> -->
-        <div class="slide">
+        <!-- <div class="slide">
             <div class="wrap white-bg">
                 <h4>1.传统的报表系统</h4>
                 <img src="/static/img/section02/jtzy2.png" class="full-img" alt="传统的报表系统">
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="slide light-section">
             <div class="wrap">
@@ -93,9 +93,8 @@
         <div class="slide">
             <div class="wrap">
                 <h4>2.数据可视化——以可视化数据驱动决策</h4>
-                <div class="content">
-                    <strong>百度开源数据可视化库ECharts</strong>
-                </div>
+                <blockquote>采用
+                    <strong>百度开源数据可视化库ECharts</strong>，实现了20多种图表的模块化封装。</blockquote>
             </div>
         </div>
 
@@ -103,16 +102,23 @@
             <div class="wrap">
                 <img src="/static/img/section02/10.png" class="full-img" alt="数据可视化在生产上的应用">
             </div>
+        </div -->
+        <div>
+            <div>
+                <v-chart content='(1)钞纸机检' :option="option.paperFakeDistribute" />
+                <v-chart content='(2)钞纸机检' :option="option.fakeType" />
+            </div>
+            <div>
+                <v-chart content='(3)钞纸机检' :option="option.paperWeight" />
+                <v-chart content='(4)钞纸工艺质量' :option="option.physicIndex" />
+            </div>
+            <div>
+                <v-chart content='(5)印码工序' :option="option.code" />
+                <v-chart content='(6)机检开包量' :option="option.openNum" />
+            </div>
         </div>
-
-        <v-chart content='(1)钞纸机检' :option="option.paperFakeDistribute" /> -->
-
-        <v-chart content='(1)钞纸机检' :option="option.fakeType" />
         <!-- <v-page content='<img src="/static/img/section02/13.png" class="full-img" alt="直方图的应用——更均匀分布的定量指标">' /> -->
-
         <!-- <v-page content='<img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">' /> -->
-
-        <v-chart content='(2)钞纸机检' :option="option.paperWeight" />
         <!-- <v-chart content='(2)钞纸机检' :option="option.paperWeight2" /> -->
         <!-- <div class="slide">
             <div class="wrap">
@@ -124,10 +130,6 @@
                 <img src="/static/img/section02/14.png" class="full-img" alt="过程质量控制图——物理指标控制在上下限以内">
             </div>
         </div> -->
-        <!-- <v-chart content='(4)钞纸工艺质量' :option="option.physicIndex" /> -->
-
-        <!-- <v-chart content='(5)印码工序' :option="option.code" /> -->
-        <v-chart content='(6)机检开包量' :option="option.openNum" />
 
         <!-- <div class="slide">
             <div class="wrap">

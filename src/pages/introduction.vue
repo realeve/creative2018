@@ -5,16 +5,24 @@
         <v-galaxy/>
         <h4>背景</h4>
         <p class="content">
-          本系统的开发与公司对质量管理的要求息息相关，从2014年
-          <strong>码后核查</strong>的推广到
-          <strong>“质量精细化管理”</strong>直到今年的
-          <strong>“质量提升年”</strong>，主要解决了生产质量管理中遇到的四类问题：
+          <!-- 它的发展与公司对质量管理的要求息息相关(从
+          <strong>数据驱动型质量管理模式</strong>到
+          <strong>质量精细化管理</strong>直到今年的
+          <strong>质量提升年</strong>)， -->
+          本系统是自主开发完成。主要解决了四个问题：
         </p>
         <ol class="text-left">
-          <li>联结系统间的数据孤岛</li>
-          <li>数据自动采集、统计和分析</li>
-          <li>管理信息及时传递</li>
-          <li>用大数据思维指导质量管理</li>
+          <li>整合现有的系统或数据库，连接
+            <strong>数据孤岛</strong>
+          </li>
+          <li>质量管理中的
+            <strong>报表和图表</strong>
+          </li>
+          <li>
+            <strong>工艺质量</strong>管理的信息传递</li>
+          <li>用质量信息控制
+            <strong>产品物流</strong>
+          </li>
         </ol>
       </div>
     </div>

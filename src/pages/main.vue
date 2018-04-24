@@ -4,6 +4,7 @@
       <source src="../../static/video/theme.mp4" type="video/mp4">
     </video>
     <div class="wrap">
+      <!-- <Flower/> -->
       <p class="tip" style="right:-20px;">按
         <span class="key">F11</span> 键全屏<br>
         <span class="key">↑</span>
@@ -23,7 +24,11 @@
 </template>
 
 <script>
+import Flower from "./flower";
 export default {
+  components: {
+    Flower
+  },
   // name: 'main',
   data() {
     return {
@@ -77,7 +82,7 @@ export default {
   }
   h3 {
     // font-family: "lvjiande";
-    font-size: 40pt;
+    font-size: 30pt;
     // background-image: -webkit-gradient(
     //   linear,
     //   0 0,
@@ -93,7 +98,7 @@ export default {
   }
   h2 {
     // font-family: "lvjiande";
-    font-size: 50pt;
+    font-size: 40pt;
     padding: 0 0 70px 0;
     margin-top: 40px;
   }

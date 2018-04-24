@@ -488,11 +488,6 @@ const option = {
         }
       },
       roam: true,
-      label: {
-        show: true,
-        color: "#eee",
-        position: "inside"
-      },
       force: {
         repulsion: 100
       },
