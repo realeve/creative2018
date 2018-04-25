@@ -13,15 +13,15 @@
         </p>
         <ol class="text-left">
           <li>整合现有的系统或数据库，连接
-            <strong>数据孤岛</strong>
+            <strong>数据孤岛</strong> (2014-2015)
           </li>
           <li>质量管理中的
-            <strong>报表和图表</strong>
+            <strong>报表和图表</strong> (2016)
           </li>
           <li>
-            <strong>工艺质量</strong>管理的信息传递</li>
+            <strong>工艺质量</strong>管理的信息传递 (2017)</li>
           <li>用质量信息控制
-            <strong>产品物流</strong>
+            <strong>产品物流</strong> (2018)
           </li>
         </ol>
       </div>

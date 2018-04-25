@@ -159,6 +159,29 @@
             </div>
             <arc-line :fill="'#0e0e2a'"></arc-line>
         </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section03/03.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section03/04.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section03/02.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section03/20.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
     </div>
 </template>
 

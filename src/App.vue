@@ -33,4 +33,7 @@ export default {
   align-items: center;
   height: 100vh;
 }
+.fp-tableCell {
+  height: 100vh !important;
+}
 </style>

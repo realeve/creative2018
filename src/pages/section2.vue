@@ -47,6 +47,11 @@
                 </div>
             </div>
         </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section03/01.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
         <div class="slide light-section">
             <div class="wrap">
                 <h4>2.工序间信息有效传递</h4>
@@ -78,6 +83,26 @@
         <div class="slide">
             <div class="wrap">
                 <img src="/static/img/query/03.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/query/04.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/query/05.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/query/06.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/query/07.png" class="full-img" alt="工艺质量管理平台">
             </div>
         </div>
 
