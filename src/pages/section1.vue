@@ -4,7 +4,9 @@
             <div class="wrap">
                 <v-galaxy/>
                 <h4>一、质量数据管理平台</h4>
-                <p class="content">让数据栩栩如生</p>
+                <p class="content">质量管理工作中的
+                    <strong>基础设施</strong>，目前公司印钞、钞纸各类管理人员均能从中找出所需的数据。
+                </p>
             </div>
         </div>
 
@@ -77,6 +79,16 @@
             </div>
         </div>
 
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/error/e1.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/error/e2.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
         <!-- <div class="slide">
             <div class="wrap">
                 <img src="/static/img/section01/1.png" class="full-img">
@@ -111,6 +123,23 @@
                 <div class="chart-gallery-item">
                     <t-chart content='(5)印码工序' :option="option.code" />
                     <t-chart content='(6)机检开包量' :option="option.openNum" />
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="chart-gallery">
+                <div class="chart-gallery-item">
+                    <t-chart content='(1)墨色分析' :option="option.inkAnay" />
+                    <t-chart content='(2)钞纸机检' :option="option.errCart" />
+                </div>
+                <div class="chart-gallery-item">
+                    <t-chart content='(3)钞纸机检' :option="option.errCart2" />
+                    <t-chart content='(4)钞纸工艺质量' :option="option.radar" />
+                </div>
+                <div class="chart-gallery-item">
+                    <t-chart content='(5)印码工序' :option="option.treemap" />
+                    <t-chart content='(6)机检开包量' :option="option.pareto" />
                 </div>
             </div>
         </div>
@@ -157,7 +186,6 @@
                     </ol>
                 </div>
             </div>
-            <arc-line :fill="'#0e0e2a'"></arc-line>
         </div>
 
         <div class="slide">
@@ -180,6 +208,12 @@
         <div class="slide">
             <div class="wrap">
                 <img src="/static/img/section03/20.png" class="full-img" alt="工艺质量管理平台">
+                <!-- <arc-line :fill="'#0e0e2a'"></arc-line> -->
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section02/slider.png" class="full-img" alt="工艺质量管理平台">
             </div>
         </div>
     </div>

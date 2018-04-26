@@ -5,7 +5,7 @@
         <p>感谢聆听</p>
       </div>
       <div class="footer">
-        <p>成都印钞有限公司 印钞管理部</p>
+        <p>成都印钞有限公司</p>
         <p class="name">
           <span>李宾</span>
         </p>

@@ -883,7 +883,7 @@ export default {
       symbol: "circle",
       lineStyle: {
         normal: {
-          width: 3,
+          width: 1,
           type: "solid",
           shadowColor: "rgba(0,0,0,0)",
           shadowBlur: 0,

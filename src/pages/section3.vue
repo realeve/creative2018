@@ -41,7 +41,9 @@
         <div class="slide">
             <div class="wrap">
                 <h4>1.人工大张抽检自动排号</h4>
-                <p>从随机抽检到自动优选</p>
+                <p>从随机抽检到
+                    <strong>自动优选</strong>
+                </p>
                 <div class="content">
                     <blockquote>经过2018年前12周的测试，实际抽检量仅比理论值多
                         <strong>0.5车/周</strong>。</blockquote>
@@ -57,7 +59,7 @@
 
         <div class="slide">
             <div class="wrap">
-                <h4>2.质量系统对产品库的控制</h4>
+                <h4>2.质量系统对物流的控制</h4>
                 <ol>
                     <li>工艺人员
                         <strong>发布工艺流转任务</strong>(四新/异常品)</li>
@@ -88,8 +90,9 @@
         <div class="slide">
             <div class="wrap">
                 <h4>迈向智能制造</h4>
-                <div class="content">通过质量信息对物流的智能控制，让我们可以
-                    <strong>根据前工序的生产情况自动决定产品后续的走向</strong>，实现成钞公司在智能制造中的初步探索。</div>
+                <div class="content">通过质量信息对物流的智能控制，让我们可以根据前工序的生产情况
+                    <strong>自动决定产品后续的走向</strong>，实现成钞公司在
+                    <strong>智能制造</strong>中的初步探索。</div>
             </div>
             <arc-line :fill="'#0e0e2a'"></arc-line>
         </div>

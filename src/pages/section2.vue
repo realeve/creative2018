@@ -85,11 +85,11 @@
                 <img src="/static/img/query/03.png" class="full-img" alt="工艺质量管理平台">
             </div>
         </div>
-        <div class="slide">
+        <!-- <div class="slide">
             <div class="wrap">
                 <img src="/static/img/query/04.png" class="full-img" alt="工艺质量管理平台">
             </div>
-        </div>
+        </div> -->
         <div class="slide">
             <div class="wrap">
                 <img src="/static/img/query/05.png" class="full-img" alt="工艺质量管理平台">
@@ -122,7 +122,7 @@
 
         <div class="slide">
             <div class="wrap">
-                <h4>本部分总结</h4>
+                <h4>管理与信息的融合</h4>
                 <div class="content">
                     <blockquote>
                         质量数据管理平台解决了
