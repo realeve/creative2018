@@ -14,6 +14,7 @@
 </style>
 <script>
 import Particles from "particles.js";
+// import Particles from "./particles.min";
 import param from "./particlesSetting";
 export default {
   computed: {

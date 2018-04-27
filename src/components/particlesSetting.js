@@ -5,7 +5,7 @@ export default {
       value: 60,
       density: {
         enable: true,
-        value_area: 1000
+        value_area: 800
       }
     },
     color: {
@@ -15,15 +15,15 @@ export default {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: starColor
       },
       polygon: {
         nb_sides: 5
       }
-      // image: {
-      //   src: "img/github.svg",
-      //   width: 100,
-      //   height: 100
+      // "image": {
+      //   "src": "img/github.svg",
+      //   "width": 100,
+      //   "height": 100
       // }
     },
     opacity: {
@@ -37,7 +37,7 @@ export default {
       }
     },
     size: {
-      value: 6,
+      value: 3,
       random: true,
       anim: {
         enable: false,
@@ -49,31 +49,27 @@ export default {
     line_linked: {
       enable: true,
       distance: 150,
-      color: starColor,
+      color: "#ffffff",
       opacity: 0.4,
       width: 1
     },
-    anim: {
-      enable: true,
-      speed: 3
-    },
     move: {
       enable: true,
-      speed: 4,
+      speed: 6,
       direction: "none",
-      random: true,
+      random: false,
       straight: false,
       out_mode: "out",
-      bounce: true,
+      bounce: false,
       attract: {
         enable: false,
-        rotateX: 100,
+        rotateX: 600,
         rotateY: 1200
       }
     }
   },
   interactivity: {
-    detect_on: "Window",
+    detect_on: "canvas",
     events: {
       onhover: {
         enable: true,
