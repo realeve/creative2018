@@ -2,7 +2,7 @@ const starColor = "#def";
 export default {
   particles: {
     number: {
-      value: 50,
+      value: 60,
       density: {
         enable: true,
         value_area: 1000
@@ -19,12 +19,12 @@ export default {
       },
       polygon: {
         nb_sides: 5
-      },
-      image: {
-        src: "img/github.svg",
-        width: 100,
-        height: 100
       }
+      // image: {
+      //   src: "img/github.svg",
+      //   width: 100,
+      //   height: 100
+      // }
     },
     opacity: {
       value: 0.5,
@@ -53,14 +53,18 @@ export default {
       opacity: 0.4,
       width: 1
     },
+    anim: {
+      enable: true,
+      speed: 3
+    },
     move: {
       enable: true,
-      speed: 2,
+      speed: 4,
       direction: "none",
-      random: false,
+      random: true,
       straight: false,
       out_mode: "out",
-      bounce: false,
+      bounce: true,
       attract: {
         enable: false,
         rotateX: 100,
