@@ -190,6 +190,11 @@
 
         <div class="slide">
             <div class="wrap">
+                <img src="/static/img/section03/02-2.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="wrap">
                 <img src="/static/img/section03/03.png" class="full-img" alt="工艺质量管理平台">
             </div>
         </div>
@@ -197,6 +202,12 @@
         <div class="slide">
             <div class="wrap">
                 <img src="/static/img/section03/04.png" class="full-img" alt="工艺质量管理平台">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="wrap">
+                <img src="/static/img/section03/04-2.png" class="full-img" alt="工艺质量管理平台">
             </div>
         </div>
 

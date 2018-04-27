@@ -1,6 +1,6 @@
 <template>
   <div class="galaxy">
-    <!-- <v-star/> -->
+    <v-star/>
     <div class="page-bg"></div>
     <div class="bg-dot"></div>
   </div>
@@ -9,14 +9,13 @@
 @import "../assets/css/galaxy.less";
 </style>
 
-// <script>
-// import VStar from "../components/Star";
+<script>
+import VStar from "../components/Star";
 
-// export default {
-//   components: {
-//     VStar
-//   }
-// };
-//
+export default {
+  components: {
+    VStar
+  }
+};
 </script>
 

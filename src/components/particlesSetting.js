@@ -1,3 +1,4 @@
+const starColor = "#def";
 export default {
   particles: {
     number: {
@@ -8,7 +9,7 @@ export default {
       }
     },
     color: {
-      value: "#ffffff"
+      value: starColor
     },
     shape: {
       type: "circle",
@@ -40,7 +41,7 @@ export default {
       random: true,
       anim: {
         enable: false,
-        speed: 20,
+        speed: 40,
         size_min: 0.1,
         sync: false
       }
@@ -48,7 +49,7 @@ export default {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
+      color: starColor,
       opacity: 0.4,
       width: 1
     },
