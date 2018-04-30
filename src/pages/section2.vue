@@ -90,11 +90,12 @@
                 <img src="/static/img/query/04.png" class="full-img" alt="工艺质量管理平台">
             </div>
         </div> -->
-        <div class="slide">
+        <!-- <div class="slide">
             <div class="wrap">
                 <img src="/static/img/query/05.png" class="full-img" alt="工艺质量管理平台">
             </div>
-        </div>
+        </div> -->
+
         <div class="slide">
             <div class="wrap">
                 <img src="/static/img/query/06.png" class="full-img" alt="工艺质量管理平台">
