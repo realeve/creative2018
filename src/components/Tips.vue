@@ -15,7 +15,9 @@ export default {
   data() {
     return {
       clock: "",
-      seconds: 0
+      seconds: 0,
+      timeCount: 15 * 60, //15分钟
+      slideCount: 49 // 49页
     };
   },
   computed: {
@@ -52,6 +54,8 @@ export default {
       return mmss;
     },
     setClock() {
+      // let percent = Math.ceil(this.seconds / this.timeCount * this.slideCount);
+      // this.clock = this.calcTime() + ` (p${percent})`;
       this.clock = this.calcTime();
     }
   },

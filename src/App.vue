@@ -8,7 +8,8 @@
 
 <script>
 import VMenu from "./components/Menu";
-import Page from "./components/Page";
+// import Page from "./components/Page";
+import Page from "./components/Onepage";
 import Tips from "./components/Tips";
 
 export default {
