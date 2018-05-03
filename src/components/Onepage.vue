@@ -1,7 +1,7 @@
 <template>
   <div>
     <main-page/>
-    <Content/>
+    <!-- <Content/> -->
     <div class="section white-text">
       <div class="wrap">
         <v-galaxy/>
@@ -11,15 +11,15 @@
         </p>
         <ol class="text-left">
           <li>整合现有的系统或数据库，连接
-            <strong>数据孤岛</strong> (2014-2015)
+            <strong>数据孤岛</strong>
           </li>
           <li>质量管理中的
-            <strong>报表和图表</strong> (2016)
+            <strong>报表和图表</strong>
           </li>
           <li>
-            <strong>工艺质量</strong>管理的信息传递 (2017)</li>
+            <strong>工艺质量</strong>管理的信息传递 </li>
           <li>用质量信息控制
-            <strong>产品物流</strong> (2018)
+            <strong>产品物流</strong>
           </li>
         </ol>
       </div>
@@ -455,10 +455,10 @@
         <div class="content">
           <ol>
             <li>新技术的学习(
-              <strong>jQuery、Vue.js、React.js、Node.js</strong>)。</li>
+              <strong>jQuery、Vue.js、React.js、ECharts、Node.js、PHP</strong>)。</li>
             <li>质量管理的重要工具。</li>
             <li>
-              <span class="underline">数据采集和使用部分，各企业存在一定差异</span>,在2015年的行业统计分析报告中有详细的说明，此处不展开讨论。</li>
+              <span class="underline">数据采集和使用部分，各企业存在一定差异</span>,此处不展开讨论。</li>
           </ol>
         </div>
       </div>
